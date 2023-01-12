@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='noindex,follow' />
+    <link rel="shortcut icon" href="assets/logo.png">
+    <title>INCOG</title>
+
+    <!-- CSS -->
+    <link rel='stylesheet' type='text/css' media='all' href="assets/css/simple-line-icons.css" />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/cryptocoins.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/style-inline.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/media-screens.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/owl.carousel.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/animate.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/responsive.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/style.css' />
+    <link id="ui-current-skin" rel='stylesheet' type='text/css' media='all' href="assets/css/skin-colors/skin0.css" />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/plugins/font-awesome/css/font-awesome.min.css' />
+    <link rel='stylesheet' type='text/css' media='all' href='assets/plugins/select2/select2.min.css' />
+<!-- theme css -->
+<link rel="stylesheet" href="./assets/css/theme.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/plugins/amcharts/export.css" />
+    <!-- Fonts -->
+    <link rel='stylesheet' type='text/css' media='all'
+        href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%7CRaleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CDroid+Serif%3A400%2C700%7CMontserrat%7CMontserrat%3Aregular%2C700%2Clatin' />
+<!-- icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body
+    class="page-template-default page page-child footer_row1_off is_header_semitransparent cryptic-one-page is_nav_sticky">
+    <div class="cryptic_preloader_holder cryptic_preloader_holder_ico v2_ball_pulse">
+        <div class="cryptic_preloader v2_ball_pulse">
+            <div class="loaders">
+                <div class="loader">
+                    <div class="loader-inner ball-pulse">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modeltheme-modal" id="modal-log-in">
+        <div class="modeltheme-content" id="login-modal-content">
+            <h3 class="relative"> Login to Your Account </h3>
+            <div class="modal-content row">
+                <div class="col-md-12">
+                    <div class="alert alert-success alert-dismissible cryptic-demo-login">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong>Username:</strong> cryptic_demo
+                        <br />
+                        <strong>Password:</strong> cryptic_demo
+                    </div>
+
+                    <form name="loginform" id="loginform" method="post">
+                        <p class="login-username">
+                            <label for="user_login">Username or Email Address</label>
+                            <input type="text" name="log" id="user_login" class="input" value="" size="20" />
+                        </p>
+                        <p class="login-password">
+                            <label for="user_pass">Password</label>
+                            <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+                        </p>
+                        <p class="login-remember">
+                            <label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember
+                                Me</label>
+                        </p>
+                        <p class="login-submit">
+                            <input type="submit" name="submit" id="submit" class="button button-primary"
+                                value="Log In" />
+                            <input type="hidden" name="redirect_to" value="" />
+                        </p>
+                    </form>
+                    <p class="um-notice err text-center">Registration is currently disabled</p>
+                </div>
+            </div>
+        </div>
+        <div class="modeltheme-content" id="signup-modal-content">
+            <h3 class="relative"> Personal Details </h3>
+            <div class="modal-content row">
+                <div class="col-md-12"> [ultimatemember form_id=16587] </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modeltheme-overlay"></div>
+    <!-- Fixed Search Form -->
+    <div class="fixed-search-overlay">
+        <!-- Close Sidebar Menu + Close Overlay -->
+        <i class="icon-close icons"></i>
+        <!-- INSIDE SEARCH OVERLAY -->
+        <div class="fixed-search-inside">
+            <div class="modeltheme-search">
+                <form method="GET">
+                    <input class="search-input" placeholder="Enter search term..." type="search" value="" name="s"
+                        id="search" />
+                    <i class="fa fa-search"></i>
+                    <input type="hidden" name="post_type" value="post" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed Sidebar Overlay -->
+    <div class="fixed-sidebar-menu-overlay"></div>
+    <!-- Fixed Sidebar Menu -->
+    <div class="relative fixed-sidebar-menu-holder header7">
+        <div class="fixed-sidebar-menu">
+            <!-- Close Sidebar Menu + Close Overlay -->
+            <i class="icon-close icons"></i>
+            <!-- Sidebar Menu Holder -->
+            <div class="header7 sidebar-content">
+                <!-- RIGHT SIDE -->
+                <div class="left-side">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/Vector-Smart-Object2.png" alt="BitWallet" />
+                        </a>
+                    </h1>
+                    <aside id="search-3" class="widget widget_search">
+                        <form role="search" method="get" class="search-form">
+                            <label>
+                                <span class="screen-reader-text">Search for:</span>
+                                <input type="search" class="search-field" placeholder="Search &hellip;" value=""
+                                    name="s" />
+                            </label>
+                            <input type="submit" class="search-submit" value="Search" />
+                        </form>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PAGE #page -->
+    <div id="page" class="hfeed site">
+        <header class="header4">
+            <!-- BOTTOM BAR -->
+            <nav id="modeltheme-main-head" class="navbar navbar-default transparent-nav">
+                <div class="container">
+                    <div class="row">
+                        <!-- LOGO -->
+                        <div class="navbar-header col-md-2">
+                            <!-- NAVIGATION BURGER MENU -->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <h5 class="logo">
+                                <a href="index.html">
+                                    <img src="assets/logo.png" alt="INCOG" />
+                                </a>
+                            </h5>
+                        </div>
+
+                        <!-- NAV MENU -->
+                        <div id="navbar" class="navbar-collapse collapse col-md-10">
+                            <div class="menu nav navbar-nav pull-right nav-effect nav-menu">
+                                <div class="menu-one-page-container">
+                                    <ul id="menu-one-page" class="menu">
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                                href="#to_initial">Home</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a href="#to_video">Promo Video</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a href="#to_token_sale">About Us</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a href="#to_products">Blockchain</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a href="#to_roadmap">Roadmap</a>
+                                        </li>
+                                        <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a href="#to_team">Team</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a href="#to_testimonial">Testimonial</a>
+                                        </li> -->
+                                        <!-- <li
+                                            class="homepages-badge menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children">
+                                            <a href="#">News</a>
+                                            <ul class="sub-menu">
+                                                <li
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
+                                                    <a href="blog.html">Blog V1</a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                        href="blog1.html">Blog V2</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                        href="blog-single.html">Single Blog Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li
+                                            class="to_whitepaper menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a target="_blank" href="../Whitepaper.pdf">Whitepaper</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- HEADER TITLE BREADCRUBS SECTION -->
+
+        <!-- Page content -->
+        <div class="no-padding content-area no-sidebar" id="primary">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="entry-content">
+                        <!-- Section1 - BitWallet One Page -->
+                        <div class="clearfix"></div>
+                        <div id="to_initial" class="padding_top-80 cryptic_one_page data_background"
+                            data-background="assets/images/background-2.png">
+                            <div class="padding_80 text-center">
+                                <div class="container">
+                                    <div class="row vc_row-has-fill">
+                                        <div class="spacer_80"></div>
+                                        <div class="col-sm-9 col-md-6">
+                                            <h1 class="wow fadeInDown wpb_start_animation">Welcome to the
+                                                <br />
+                                                earnings guarantee
+                                            </h1>
+                                            <h3 class="wow fadeInDown wpb_start_animation">Welcome to Simplicity</h3>
+                                            <h2 class="wow fadeInDown wpb_start_animation">Welcome to INCOG
+                                            </h2>
+                                            <!-- <div class="countdownv2_holder countdown-version3">
+                                                <div class="countdownv2 clock flip-clock-wrapper"
+                                                    data-count-down="2018/07/12"></div>
+                                            </div> -->
+                                            <!-- <div class="spacer_30"></div> -->
+                                            <!-- <div
+                                                class="text-right bitwallet-btn modeltheme_button wow fadeInLeft wpb_start_animation">
+                                                <a href="../Whitepaper.pdf"
+                                                    class="button-winona btn btn-medium btn_custom_blue_grad">WHITEPAPPER</a>
+                                            </div>
+                                            <div
+                                                class="text-left bitwallet-btn modeltheme_button wow fadeInLeft wpb_start_animation">
+                                                <a href="#" class="button-winona btn btn-medium btn_to_whitepaper">BUY
+                                                    TOKENS</a>
+                                            </div> -->
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="vc_column-inner ">
+                                                <div class="wpb_wrapper"></div>
+                                            </div>
+                                        </div>
+                                        <div class="spacer_80"></div>
+                                        <div class="spacer_80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <section id="to_video" class="video-background  data_background"
+                            data-background="assets/images/bitcoin.jpg">
+                            <div class='video-bg'></div>
+                            <video loop id="myVideo" autoplay width="1500" height="850" class='video-bg'>
+                                <source src="assets/promo.mp4" type="video/mp4">
+                            </video>
+                            <!-- <a class="player"
+                                data-property="{videoURL:'6OTG8E_mtcE',containment:'.video-bg',autoPlay:true, mute:true, startAt:0,opacity:1,ratio:'16/9',showControls:false,showYTLogo:false,quality:'hd1080'}"></a> -->
+                        </section>
+                        <!-- Section2 - BitWallet Token sale stats -->
+                        <div class="clearfix"></div>
+                        <div id="to_token_sale" class="padding_top-80 text_center page-fill">
+                            <div class="container">
+                                <div class="title-subtile-holder wow fadeIn text_center">
+                                    <h1 class="section-title light_title no-margin">Total supply: 1,000,000,000</h1>
+                                    <div class="spacer_10"></div>
+                                    <div class="clearfix"></div>
+                                    <div class="section-border green_border no-margin"></div>
+                                    <div class="spacer_10"></div>
+                                    <div class="section-title light_title no-margin">
+                                        <H2>
+                                            12% Buy & Sell </br>
+                                            6% Marketing</br>
+                                            3% Buyback</br>
+                                        </H2>
+                                        <!-- 12% Buy & Sell </br>
+                                        6% Marketing</br>
+                                        3% Liquidity</br>
+                                        3% Buyback</br> -->
+                                    </div>
+                                </div>
+                                <div class="spacer_80"></div>
+                                <div class="spacer_80"></div>
+                                <!-- <div class="clearfix"></div> -->
+                                <!-- <div class="row decentralized-total-contribution decentralized-total-contribution-1">
+                                    <div class="col-sm-4">
+                                        <h2 class="section-title light_title no-margin">Total supply:</h2>
+                                        <h2 class="decentralized-h2-amount wow fadeIn">1,000,000,000</h2>
+                                    </div> -->
+                                <!-- <div class="col-sm-2"> -->
+                                <!-- <div class="spacer_10"></div> -->
+                                <!-- <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized"></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">Tax: </span>
+                                                <span class="value ">$423.45</span>
+                                            </p>
+                                        </div> -->
+                                <!-- <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized "></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">Monero: </span>
+                                                <span class="value ">$219.34</span>
+                                            </p>
+                                        </div> -->
+                                <!-- </div> -->
+                                <!-- <div class="col-sm-2">
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized "></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">Ripple: </span>
+                                                <span class="value ">$0.70</span>
+                                            </p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized "></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">Litecoin: </span>
+                                                <span class="value ">$166.19</span>
+                                            </p>
+                                        </div>
+                                    </div> -->
+                                <!-- <div class="col-sm-2">
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized "></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">Tether: </span>
+                                                <span class="value ">$1.00</span>
+                                            </p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized "></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">Bitcoin: </span>
+                                                <span class="value ">$8,533</span>
+                                            </p>
+                                        </div>
+                                    </div> -->
+                                <!-- <div class="col-sm-2">
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized "></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">Qtum: </span>
+                                                <span class="value ">$17.98</span>
+                                            </p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix">
+                                                    <i class="fa fa-bullseye icon-bullseye-decentralized "></i>
+                                                </div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white">
+                                                <span class="name">TRON: </span>
+                                                <span class="value ">$0.0358</span>
+                                            </p>
+                                        </div>
+                                    </div> -->
+                                <!-- </div> -->
+                                <!-- <div class="row decentralized-total-contribution">
+                                    <div class="col-sm-6 border-right">
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized "></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Total
+                                                    Contributors</span><span class="value pull-right">7,591</span></p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Token
+                                                    Uses</span><span class="value pull-right">Ethereum</span></p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right  icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Token
+                                                    Standart</span><span class="value pull-right">ERC20</span></p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Token
+                                                    Name</span><span class="value pull-right">BITWALLET</span></p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Token
+                                                    Sumbol</span><span class="value pull-right">CRP</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 padding_left_50">
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span
+                                                    class="name float-left">Average Contribution</span><span
+                                                    class="value pull-right">$1,128 / Contributor</span></p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Number
+                                                    of Transactions</span><span class="value pull-right">8,432</span>
+                                            </p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span
+                                                    class="name float-left">Countries Participated</span><span
+                                                    class="value pull-right">84</span></p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Total
+                                                    Tokens Issued</span><span
+                                                    class="value pull-right">105,422,433</span></p>
+                                        </div>
+                                        <div class="spacer_10"></div>
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span class="name float-left">Token
+                                                    Sale Jurisdiction</span><span
+                                                    class="value pull-right">Gibraltar</span></p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="row decentralized-total-contribution">
+                                    <div class="col-sm-3">
+                                        <div class="mt-icon-list-item mt-parent-icon-list-item wow fadeIn">
+                                            <div class="mt-icon-list-icon-holder">
+                                                <div class="mt-icon-list-icon-holder-inner clearfix"><i
+                                                        class="fa fa-caret-right icon-caret-decentralized"></i></div>
+                                            </div>
+                                            <p class="mt-icon-list-text text-white"><span
+                                                    class="name float-left">Tax</span><span class="value "></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <div class="fadeIn wow text-left">
+                                            <p>12% Buy & Sell <br />
+                                                6% Marketing <br />
+                                                3% Liquidity <br />
+                                                3% Buyback<br /></p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <!-- Section3 - BitWallet onBlockchain -->
+                        <div class="clearfix"></div>
+                        <div id="to_products" class="padding_top-80 text_center page-fill">
+                            <div class="container">
+                                <div class="row vc_row-has-fill">
+                                    <div class="col-sm-6">
+                                        <div class="title-subtile-holder wow fadeInLeft text_left">
+                                            <h1 class="section-title light_title no-margin">Product based onBlockchain
+                                            </h1>
+                                            <div class="spacer_10"></div>
+                                            <div class="clearfix"></div>
+                                            <div class="section-border green_border no-margin"></div>
+                                            <div class="spacer_10"></div>
+                                            <div class="section-subtitle light_subtitle">
+                                                INCOG was created with the aim of guaranteeing profit and simplifying
+                                                things. <br /><br />
+                                                After carefully analyzing the numerous types of protocols currently
+                                                present in the DeFi universe, we realized that something was missing.
+                                                What was missing was the simplicity, the clarity, the ease of being able
+                                                to fully understand the mechanics of the projects, the guarantee of the
+                                                result and the uniqueness of the code.<br /><br />
+                                                At INCOG we know that letting yourself be guided by emotions is the
+                                                first step towards the abyss for any trader.<br /><br />
+
+                                            </div>
+                                        </div>
+                                        <div class="spacer_40"></div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <figure class="fadeInRight wow">
+                                            <img width="520" height="415" src="assets/images/Vector-Smart-Object10.png"
+                                                class="fadeInRight wow" alt="Vector-Smart-Object10" />
+                                        </figure>
+                                    </div>
+                                    <div class="spacer_80"></div>
+                                    <div class="clearfix"></div>
+                                    <div
+                                        class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text wow fadeIn">
+                                        <span class="vc_sep_holder vc_sep_holder_l">
+                                            <span class="sep_line"></span>
+                                        </span>
+                                        <span class="vc_sep_holder vc_sep_holder_r">
+                                            <span class="sep_line"></span>
+                                        </span>
+                                    </div>
+                                    <div class="spacer_50"></div>
+                                    <div class="col-sm-6 vc_col-has-fill">
+                                        <div class="wpb_single_image wpb_content_element vc_align_left wow fadeInLeft">
+                                            <figure class="wpb_wrapper vc_figure">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                    <img width="335" height="450"
+                                                        src="assets/images/Vector-Smart-Object9.png"
+                                                        class="vc_single_image-img attachment-full"
+                                                        alt="Vector-Smart-Object9" />
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="title-subtile-holder wow fadeInRight text_left">
+                                            <h1 class="section-title light_title no-margin">Product based on SMART
+                                                CONTRACT</h1>
+                                            <div class="spacer_10"></div>
+                                            <div class="clearfix"></div>
+                                            <div class="section-border green_border no-margin"></div>
+                                            <div class="spacer_10"></div>
+                                            <div class="section-subtitle light_subtitle">
+                                                INCOG has simple rules and logical mechanics.<br />
+                                                Do you want the guarantee that your investment will never lose value,
+                                                having the only possibility to keep it or increase it?<br /><br />
+                                                Then INCOG is what you were looking for.<br /><br />
+
+                                                Buying INCOG implies agreeing that the profit of a few cannot be at the
+                                                expense of the many.<br /><br />
+
+                                                So am I not free to sell?<br />
+                                                Yes, of course, in a sustainable way.<br />
+
+                                                The protocol will allow investors to sustainably sell up to 25% of their
+                                                INCOG.<br /><br />
+                                                This is why the price of INCOG, day after day, is destined to
+                                                increase.<br /><br />
+                                            </div>
+                                        </div>
+                                        <div class="spacer_40"></div>
+                                        <!-- <div class="text-center bitwallet-btn modeltheme_button wow fadeInRight">
+                                            <a href="#" class="button-winona btn btn-medium btn_custom_blue_grad">READ
+                                                MORE</a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Section4 - BitWallet OUR ROADMAP -->
+                        <div class="clearfix"></div>
+                        <div id="to_roadmap" class="cryptic_ico_our_roadmap padding_top-80 text-center page-fill">
+                           <div class="container">
+                            <h1 class="section-title light_title no-margin">Roadmap</h1>
+                            <div class="our-roadmap-inner-wrapper">
+                                <div class="center-line">
+                                    <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+                                </div>
+                                <div class="row row-1">
+                                  <section>
+                                    <i class="icon fas fa-star"></i>
+                                    <div class="details">
+                                      <span class="title">PHASE 01 - Prelaunch</span>
+                                      <span>1st Jun 2022</span>
+                                    </div>
+                                    <p>
+                                        Website Development<br />
+                                        Conduct Private Sale<br />
+                                        Social Media Setup<br />
+                                        Create KOL Networks<br />
+                                        Social Media Setup<br />
+                                        Create KOL Networks<br />
+                                        Social Media Setup<br />
+                                        Create KOL Networks<br />
+                                    </p>
+                                    <!-- <div class="bottom">
+                                      <a href="#">Read more</a>
+                                      <i>- Someone famous</i>
+                                    </div> -->
+                                  </section>
+                                </div>
+                                <div class="row row-2">
+                                  <section>
+                                    <i class="icon fas fa-star"></i>
+                                    <div class="details">
+                                      <span class="title">PHASE 02 - Launch</span>
+                                      <span>2nd Jul 2022</span>
+                                    </div>
+                                    <p>
+                            PancakeSwap Listing<br />
+                            5 Year Liquidity Lock<br />
+                            CoinGecko Application<br />
+                            CoinMarketCap Application
+                            NFTs Launch <br />
+                            Vigorous Social Media Promotions<br />
+                            Widespread YouTube Campaign<br />
+                            Banner Advertisements<br />
+                            Further News Publications and Interviews<br />
+                            Unique NFT Integration<br />
+                            Exchange Partnerships<br />
+                            Launchpad Development<br />
+                            
+                                    </p>
+                                    <!-- <div class="bottom">
+                                      <a href="#">Read more</a>
+                                      <i>- Someone famous</i>
+                                    </div> -->
+                                  </section>
+                                </div>
+                                <div class="row row-1">
+                                  <section>
+                                    <i class="icon fas fa-star"></i>
+                                    <div class="details">
+                                      <span class="title">PHASE 03 - Beyond</span>
+                                      <span>3rd Dec 2022</span>
+                                    </div>
+                                    <p>
+                            Launchpad Release<br />
+                            Top 10 CEX Listing<br />
+                            NFTs Staking<br />
+                            Merchandise Release<br />
+                            Become an Industry Leading Protocol in DeFi<br />
+                            Development of New Utilities to Grow the Ecosystem<br />
+                                    </p>
+                                    <!-- <div class="bottom">
+                                      <a href="#">Read more</a>
+                                      <i>- Someone famous</i>
+                                    </div> -->
+                                  </section>
+                                </div>
+                               
+                              </div>
+                           </div>
+
+                        </div>
+                        <!-- Section5 - BitWallet Team Board -->
+                        <!-- <div class="clearfix"></div>
+                        <div id="to_team" class="padding_top-80 text_center page-fill">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="title-subtile-holder wow fadeIn text_center">
+                                        <h1 class="section-title light_title no-margin">TEAM BOARD</h1>
+                                        <div class="spacer_10"></div>
+                                        <div class="clearfix"></div>
+                                        <div class="section-border green_border no-margin"></div>
+                                        <div class="spacer_10"></div>
+                                        <div class="section-subtitle light_subtitle">Sed ut perspiciatis unde omnis
+                                            accus antium<br /> sedut pers dolorem ipsum quia dolor sit.</div>
+                                    </div>
+                                    <div class="spacer_80"></div>
+                                    <div class="row mt_members2 mt_slider_members_team1 wow fadeIn">
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-1.jpg"
+                                                                alt="Robert Downey" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Robert Downey</h3>
+                                                                <h5 class="member02_position">Founder Technology Officer
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-2.jpg"
+                                                                alt="Martha Smith" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Martha Smith</h3>
+                                                                <h5 class="member02_position">Chief Executive Officer
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-3.jpg"
+                                                                alt="Thomas Moriz" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Thomas Moriz</h3>
+                                                                <h5 class="member02_position">Chief Financial Officer
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-4.jpg"
+                                                                alt="Laura Stone" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Laura Stone</h3>
+                                                                <h5 class="member02_position">Blockchain Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-5.jpg"
+                                                                alt="Alex Smith" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Alex Smith</h3>
+                                                                <h5 class="member02_position">Blockchain Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-6.jpg"
+                                                                alt="Jessica Moriz" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Jessica Moriz</h3>
+                                                                <h5 class="member02_position">Senior Web Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-8.jpg"
+                                                                alt="Robert Stone" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Robert Stone</h3>
+                                                                <h5 class="member02_position">Senior Web Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-7.jpg"
+                                                                alt="Adelaide Downey" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Adelaide Downey
+                                                                </h3>
+                                                                <h5 class="member02_position">Senior Copywriter</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt_members2 mt_slider_members_team2 row wow fadeIn">
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-7.jpg"
+                                                                alt="Adelaide Downey" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Adelaide Downey
+                                                                </h3>
+                                                                <h5 class="member02_position">Senior Copywriter</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-8.jpg"
+                                                                alt="Robert Stone" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Robert Stone</h3>
+                                                                <h5 class="member02_position">Senior Web Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-6.jpg"
+                                                                alt="Jessica Moriz" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Jessica Moriz</h3>
+                                                                <h5 class="member02_position">Senior Web Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-5.jpg"
+                                                                alt="Alex Smith" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Alex Smith</h3>
+                                                                <h5 class="member02_position">Blockchain Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-4.jpg"
+                                                                alt="Laura Stone" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Laura Stone</h3>
+                                                                <h5 class="member02_position">Blockchain Developer</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-3.jpg"
+                                                                alt="Thomas Moriz" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Thomas Moriz</h3>
+                                                                <h5 class="member02_position">Chief Financial Officer
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-2.jpg"
+                                                                alt="Martha Smith" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Martha Smith</h3>
+                                                                <h5 class="member02_position">Chief Executive Officer
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 relative">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="members_img_holder">
+                                                        <div class="memeber02-img-holder">
+                                                            <div class="linkedin-profile">
+                                                                <a target="_blank" href="https://www.linkedin.com/"
+                                                                    class="member01_profile-linkedin">
+                                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                            <img src="assets/images/member_filter-1.jpg"
+                                                                alt="Robert Downey" />
+                                                        </div>
+                                                        <div class="member02-content">
+                                                            <div class="member02-content-inside">
+                                                                <h3 class="member02_name text-white">Robert Downey</h3>
+                                                                <h5 class="member02_position">Founder Technology Officer
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="spacer_80"></div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- Section6 - BitWallet Testimonials -->
+                        <!-- <div class="clearfix"></div>
+                        <div id="to_testimonial" class="padding_top-80 text_center page-fill">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="testimonials02-container wow fadeIn">
+                                        <div class="row">
+                                            <div class="item col-md-12 relative">
+                                                <div class="testimonials_all_holder">
+                                                    <div class="testimonial02-text-holder">
+                                                        <div class="testimonial02-content">
+                                                            <div class="testimonial02_text">
+                                                                <div class="testimonial02_rating_titles col-md-12">
+                                                                    <h4 class="testimonial02_title col-md-6 text-white">
+                                                                        Thomas Moriz</h4>
+                                                                    <div
+                                                                        class="testimonial02_stars col-md-6 text-white">
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="testimonial02_text_content col-md-12 text-left">
+                                                                    <p class="text-white">The support teams are very
+                                                                        professional and friendly. Although I got quite
+                                                                        intimidate by all settings and customisation of
+                                                                        the theme, they helps make my life much easier.
+                                                                        The support teams are very professional and
+                                                                        friendly.
+                                                                        Although I got quite intimidate by all settings
+                                                                        and customisation of the theme, they helps make
+                                                                        my life much easier.</p>
+                                                                </div>
+                                                                <h4 class="testimonial02_position col-md-12 text-white">
+                                                                    Regional Manager</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="item col-md-12 relative">
+                                                <div class="testimonials_all_holder">
+                                                    <div class="testimonial02-text-holder">
+                                                        <div class="testimonial02-content">
+                                                            <div class="testimonial02_text">
+                                                                <div class="testimonial02_rating_titles col-md-12">
+                                                                    <h4 class="testimonial02_title col-md-6 text-white">
+                                                                        Robert Downey</h4>
+                                                                    <div
+                                                                        class="testimonial02_stars col-md-6 text-white">
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="testimonial02_text_content col-md-12 text-left">
+                                                                    <p class="text-white">The support teams are very
+                                                                        professional and friendly. Although I got quite
+                                                                        intimidate by all settings and customisation of
+                                                                        the theme, they helps make my life much easier.
+                                                                        The support teams are very professional and
+                                                                        friendly.
+                                                                        Although I got quite intimidate by all settings
+                                                                        and customisation of the theme, they helps make
+                                                                        my life much easier.</p>
+                                                                </div>
+                                                                <h4 class="testimonial02_position col-md-12 text-white">
+                                                                    General Director</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="item col-md-12 relative">
+                                                <div class="testimonials_all_holder">
+                                                    <div class="testimonial02-text-holder">
+                                                        <div class="testimonial02-content">
+                                                            <div class="testimonial02_text">
+                                                                <div class="testimonial02_rating_titles col-md-12">
+                                                                    <h4 class="testimonial02_title col-md-6 text-white">
+                                                                        John Doe</h4>
+                                                                    <div
+                                                                        class="testimonial02_stars col-md-6 text-white">
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="testimonial02_text_content col-md-12 text-left">
+                                                                    <p class="text-white">The support teams are very
+                                                                        professional and friendly. Although I got quite
+                                                                        intimidate by all settings and customisation of
+                                                                        the theme, they helps make my life much easier.
+                                                                        The support teams are very professional and
+                                                                        friendly.
+                                                                        Although I got quite intimidate by all settings
+                                                                        and customisation of the theme, they helps make
+                                                                        my life much easier.</p>
+                                                                </div>
+                                                                <h4 class="testimonial02_position col-md-12 text-white">
+                                                                    Assistant Manager</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- Section7 - Clients -->
+                        <!-- <div class="clearfix"></div>
+                        <div class="padding_top-80 text_center page-fill">
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="wow fadeIn mt_clients_slider clients_container_shortcode-5 owl-carousel owl-theme">
+                                        <div class="clients_image_holder post">
+                                            <div class="item col-md-12">
+                                                <div class="clients_image_holder_inside post no-margin"><img
+                                                        class="client_image" src="assets/images/home_shop_client2.png"
+                                                        alt="Client6" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="clients_image_holder post">
+                                            <div class="item col-md-12">
+                                                <div class="clients_image_holder_inside post no-margin"><img
+                                                        class="client_image" src="assets/images/home_shop_client1.png"
+                                                        alt="Client5" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="clients_image_holder post">
+                                            <div class="item col-md-12">
+                                                <div class="clients_image_holder_inside post no-margin"><img
+                                                        class="client_image" src="assets/images/home_shop_client2.png"
+                                                        alt="Client4" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="clients_image_holder post">
+                                            <div class="item col-md-12">
+                                                <div class="clients_image_holder_inside post no-margin"><img
+                                                        class="client_image" src="assets/images/home_shop_client1.png"
+                                                        alt="Client3" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="clients_image_holder post">
+                                            <div class="item col-md-12">
+                                                <div class="clients_image_holder_inside post no-margin"><img
+                                                        class="client_image" src="assets/images/home_shop_client2.png"
+                                                        alt="Client2" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="clients_image_holder post">
+                                            <div class="item col-md-12">
+                                                <div class="clients_image_holder_inside post no-margin"><img
+                                                        class="client_image" src="assets/images/home_shop_client1.png"
+                                                        alt="Client1" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- Section 8 - NEWS -->
+                        <!-- <div class="clearfix"></div>
+                        <div class="bitwallet_blanks padding_top-80 page-fill">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="title-subtile-holder wow fadeIn text_center no-padding">
+                                            <h1 class="section-title light_title no-margin">NEWS</h1>
+                                            <div class="spacer_10"></div>
+                                            <div class="clearfix"></div>
+                                            <div class="section-border green_border no-margin"></div>
+                                            <div class="spacer_10"></div>
+                                            <div class="section-subtitle light_subtitle">
+                                                It’s an ever-changing business. To stay on top of the <br> game, don’t
+                                                forget to keep yourself in the know.
+                                            </div>
+                                        </div>
+                                        <div class="spacer_80"></div>
+                                        <div class="blog-posts simple-posts blog-posts-shortcode wow fadeIn">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                                    <article class="single-post list-view  no-padding no-margin">
+                                                        <div class="blog_custom">
+
+                                                           
+                                                            <div class="col-md-12 post-thumbnail">
+                                                                <a class="relative" href="#"><img
+                                                                        class="blog_post_image"
+                                                                        src="assets/images/video-image-800x666.jpg"
+                                                                        alt="What is Bitcoin Mining" /></a>
+                                                                <span class="time-n-date">8 Jan</span>
+                                                            </div>
+
+                                                                                                                       <div class="post-details col-md-12">
+
+                                                                <div class="title-n-excerpt">
+                                                                    <h3 class="post-name row">
+                                                                        <a href="#" title="What is Bitcoin Mining">What
+                                                                            is Bitcoin Mining</a>
+                                                                    </h3>
+                                                                    <div class="post-excerpt row">
+                                                                        <p>Nemo enim ipsam voluptatem quia volup tas sit
+                                                                            aspernatur aut odit aut fu sed quia conse
+                                                                            quun tur magni dolor quia.</p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="text-element content-element">
+                                                                    <p class="author">Post by <a href="#">Robert
+                                                                            Downey</a></p>
+                                                                    <p class="comments">Comments <a href="#">1</a></p>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                                    <article class="single-post list-view  no-padding no-margin">
+                                                        <div class="blog_custom">
+
+                                                            <div class="col-md-12 post-thumbnail">
+                                                                <a class="relative" href="#"><img
+                                                                        class="blog_post_image"
+                                                                        src="assets/images/crytic_wp_theme3-800x666.jpg"
+                                                                        alt="Bitcoin vs Ethereum" /></a>
+                                                                <span class="time-n-date">8 Jan</span>
+                                                            </div>
+
+                                                            <div class="post-details col-md-12">
+
+                                                                <div class="title-n-excerpt">
+                                                                    <h3 class="post-name row">
+                                                                        <a href="#" title="Bitcoin vs Ethereum">Bitcoin
+                                                                            vs Ethereum</a>
+                                                                    </h3>
+                                                                    <div class="post-excerpt row">
+                                                                        <p>Nemo enim ipsam voluptatem quia volup tas sit
+                                                                            aspernatur aut odit aut fu sed quia conse
+                                                                            quun tur magni dolor quia.</p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="text-element content-element">
+                                                                    <p class="author">Post by <a href="#">Robert
+                                                                            Downey</a></p>
+                                                                    <p class="comments">No comments</p>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                                    <article class="single-post list-view  no-padding no-margin">
+                                                        <div class="blog_custom">
+
+                                                            <div class="col-md-12 post-thumbnail">
+                                                                <a class="relative" href="#"><img
+                                                                        class="blog_post_image"
+                                                                        src="assets/images/bitcurrency_theme-2-800x666.jpg"
+                                                                        alt="The Government versus Bitcoin" /></a>
+                                                                <span class="time-n-date">18 Dec</span>
+                                                            </div>
+
+                                                            <div class="post-details col-md-12">
+
+                                                                <div class="title-n-excerpt">
+                                                                    <h3 class="post-name row">
+                                                                        <a href="#"
+                                                                            title="The Government versus Bitcoin">The
+                                                                            Government versus Bitcoin</a>
+                                                                    </h3>
+                                                                    <div class="post-excerpt row">
+                                                                        <p>Nemo enim ipsam voluptatem quia volup tas sit
+                                                                            aspernatur aut odit aut fu sed quia conse
+                                                                            quun tur magni dolor quia.</p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="text-element content-element">
+                                                                    <p class="author">Post by <a href="#">Robert
+                                                                            Downey</a></p>
+                                                                    <p class="comments">No comments</p>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  -->
+                        <!-- Section8 BitWallet - Know Your Customer -->
+                        <!-- <div class="clearfix"></div> -->
+                        <!-- <div class="padding_top-80 text_center page-fill">
+                            <div class="container">
+                                <div class="row decentralized-customer">
+                                    <h2 class="wow fadeIn">Know Your Customer</h2>
+                                    <h3 class="wow fadeIn">Nemo enim ipsam voluptatem quia voluptas<br /> odit aut
+                                        fugit, sed quia consequ.</h3>
+                                    <div class="spacer_30"></div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <div class="vc_column-inner ">
+                                                <div class="wpb_wrapper"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="decentralized-svg-version">
+                                                <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-335" method="post"
+                                                    data-id="335" data-name="newsletter">
+                                                    <div class="mc4wp-form-fields">
+                                                        <div class="newsletter">
+                                                            <div class="c-sign-up-form-input">
+                                                                <input type="email" name="EMAIL"
+                                                                    placeholder="Insert your email" required />
+                                                            </div>
+                                                            <input type="submit" value="Submit" />
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="vc_column-inner ">
+                                                <div class="wpb_wrapper"></div>
+                                            </div>
+                                        </div>
+                                        <div class="spacer_80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BEGIN: FLOATING SOCIAL BUTTON -->
+        <a data-toggle="tooltip" data-placement="top" title="Connect on Telegram" class="floating-social-btn"
+            target="_blank" href="https://t.me/IncogOriginal">
+            <i class="fab fa-telegram-plane"></i>
+        </a>
+        <!-- END: FLOATING SOCIAL BUTTON -->
+
+
+        <!-- BACK TO TOP BUTTON -->
+        <a class="back-to-top-one-page back-to-top modeltheme-is-visible modeltheme-fade-out" href="#0">
+           
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        </a>
+
+        <!-- TICKERS DARK -->
+        <!-- <div class="tickers-black-sm crypto-ticker">
+            <ul id="webticker-dark-icons">
+                <li data-update="item1"><i class="cc BTC"></i> BTC <span class="coin-value"> $11.039232</span></li>
+                <li data-update="item2"><i class="cc ETH"></i> ETH <span class="coin-value"> $1.2792</span></li>
+                <li data-update="item3"><i class="cc GAME"></i> GAME <span class="coin-value"> $11.039232</span></li>
+                <li data-update="item4"><i class="cc LBC"></i> LBC <span class="coin-value"> $0.588418</span></li>
+                <li data-update="item5"><i class="cc NEO"></i> NEO <span class="coin-value"> $161.511</span></li>
+                <li data-update="item6"><i class="cc STEEM"></i> STE <span class="coin-value"> $0.551955</span></li>
+                <li data-update="item7"><i class="cc LTC"></i> LIT <span class="coin-value"> $177.80</span></li>
+                <li data-update="item8"><i class="cc NOTE"></i> NOTE <span class="coin-value"> $13.399</span></li>
+                <li data-update="item9"><i class="cc MINT"></i> MINT <span class="coin-value"> $0.880694</span></li>
+                <li data-update="item10"><i class="cc IOTA"></i> IOT <span class="coin-value"> $2.555</span></li>
+                <li data-update="item11"><i class="cc DASH"></i> DAS <span class="coin-value"> $769.22</span></li>
+            </ul>
+        </div> -->
+
+        <!-- FOOTER -->
+        <!-- <footer>
+            <!-- FOOTER BOTTOM -->
+        <div class="footer-div-parent cryptic-footer-one-page">
+            <div class="container-fluid footer">
+                <div class="col-md-12">
+                    <p class="copyright text-center">
+                        Copyright © 2022. All Rights Reserved By <a href="#">INCOG</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <!-- <div class="spacer_40"></div> -->
+    </div><!-- end HEADER -->
+    <!-- JS SCRIPTS -->
+    <script src='assets/js/jquery.js'></script>
+    <script src='assets/js/bitwallet-plugins.js'></script>
+    <script src='assets/js/bitwallet-custom.js'></script>
+    <script src='assets/js/jquery.mb.YTPlayer.min.js'></script>
+    <!-- WEBTICKER -->
+    <script src="assets/plugins/webticker/jquery.webticker.min.js"></script>
+    <!-- PLUGINS -->
+    <script src="assets/plugins/flipclock/flipclock.js"></script>
+    <script src='assets/plugins/select2/select2.min.js'></script>
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src='assets/plugins/magnific-popup/jquery.magnific-popup.js'></script>
+    <!-- Charts -->
+    <script src="assets/plugins/amcharts/amcharts.js"></script>
+    <script src="assets/plugins/amcharts/pie.js"></script>
+    <script src="assets/plugins/amcharts/animate.min.js"></script>
+    <script src="assets/plugins/amcharts/depthChart/export.min.js"></script>
+    <script src="assets/plugins/amcharts/depthChart/light.js"></script>
+
+</body>
+
+</html>

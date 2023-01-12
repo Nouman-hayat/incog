@@ -1,0 +1,1234 @@
+/*------------------------------------------------------------------
+[Master Stylesheet] - [Table of contents]
+ 1. General setings
+ 2. Section1 - One Page
+ 3. Section2 - Token sale stats 
+ 4. Section2 - Token sale stats - CHARTS
+ 5. YOUTOBE video 
+ 6. News 
+ 7. Blog
+ 8. Blog V2
+ 9. Blog Single
+10. Footer
+11. Preloader
+12. Left Menu
+-------------------------------------------------------------------*/
+/* 1. General setings */ 
+.padding_80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.padding_30 {
+    padding: 30px;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.spacer_10 {
+    height: 10px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_15 {
+    height: 15px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_20 {
+    height: 20px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_30 {
+    height: 30px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_40 {
+    height: 40px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_50 {
+    height: 50px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_70 {
+    height: 70px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_80 {
+    height: 70px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.text-bold {
+    font-weight: bolder;
+}
+.text-white {
+    color: #fff;
+}
+.no-margin {
+    margin: 0px;
+}
+.border-right {
+    padding-right: 50px !important;
+}
+.padding_left_50 {
+    padding-left: 50px !important;
+}
+.padding_top-80 {
+    padding-top: 80px !important;
+}
+body{
+    font-family:Montserrat !important;
+}
+h1,h1 span{
+    font-family:Montserrat;
+    line-height:36px;
+    font-size:36px;
+}
+h2{
+    font-family:Montserrat;
+    line-height:30px;
+    font-size:30px;
+}
+h3{
+    font-family:Montserrat;
+    line-height:24px;
+    font-size:24px;
+}
+h4{
+    font-family:Montserrat;
+    line-height:18px;
+    font-size:18px;
+}
+h5{
+    font-family:Montserrat;
+    line-height:14px;
+    font-size:14px;
+}
+h6{
+    font-family:Montserrat;
+    line-height:12px;
+    font-size:12px;
+}
+input,textarea{
+    font-family:Montserrat;
+}
+input[type="submit"]{
+    font-family:Montserrat;
+}
+/* 2. Section1 - One page */
+body .cryptic_preloader_holder{
+        background-color: 1;
+    }
+.is_header_semitransparent .navbar-default {
+    background: rgba(35, 35, 49, 0.2) none repeat scroll 0 0;
+}
+.is_header_semitransparent .sticky-wrapper.is-sticky .navbar-default {
+    background: rgba(35, 35, 49, 0.9) none repeat scroll 0 0;
+}
+.back-to-top {
+    background: transparent;
+    color: #ffffff;
+}
+.back-to-top:hover {
+    background: transparent;
+    color: #ffffff;
+}
+.breadcrumb a::after {
+  content: "/";
+}
+body{
+    background: #ffffff;
+}
+.logo img,
+.navbar-header .logo img {
+
+    max-width: 50px;
+}
+::selection{
+    color: #ffffff;
+    background: #6cd087;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #6cd087;
+}
+a{
+    color: #6cd087;
+}
+a:focus,
+a:visited,
+a:hover{
+    color: #e5c000;
+}
+/*------------------------------------------------------------------
+    COLOR
+------------------------------------------------------------------*/
+a, 
+a:hover, 
+a:focus,
+.copyright a,
+.copyright a:hover,
+.mt_car--tax-type,
+span.amount,
+.widget_popular_recent_tabs .nav-tabs li.active a,
+.widget_product_categories .cat-item:hover,
+.widget_product_categories .cat-item a:hover,
+.widget_archive li:hover,
+.widget_archive li a:hover,
+.widget_categories .cat-item:hover,
+.widget_categories li a:hover,
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.pricing-table.Recommended .button.solid-button, 
+.pricing-table.recommended .button.solid-button, 
+#sync2 .owl-item.synced .post_slider_title,
+#sync2 .owl-item:hover .post_slider_title,
+#sync2 .owl-item:active .post_slider_title,
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.testimonial-author,
+.testimonials-container blockquote::before,
+.testimonials-container blockquote::after,
+.post-author > a,
+h2 span,
+label.error,
+.author-name,
+.prev-next-post a:hover,
+.prev-text,
+.wpb_button.btn-filled:hover,
+.next-text,
+.social ul li a:hover i,
+.wpcf7-form span.wpcf7-not-valid-tip,
+.text-dark .statistics .stats-head *,
+.wpb_button.btn-filled,
+footer ul.menu li.menu-item a:hover,
+.widget_meta a:hover,
+.widget_pages a:hover,
+.blogloop-v1 .post-name a:hover,
+.blogloop-v2 .post-name a:hover,
+.blogloop-v3 .post-name a:hover,
+.blogloop-v4 .post-name a:hover,
+.blogloop-v5 .post-name a:hover,
+.post-category-comment-date span a:hover,
+.post-category-comment-date span:hover,
+.list-view .post-details .post-category-comment-date i:hover,
+.list-view .post-details .post-category-comment-date a:hover,
+.simple_sermon_content_top h4,
+.page_404_v1 h1,
+.mt_cars--single-main-pic .post-name > a,
+.widget_recent_comments li:hover a,
+.list-view .post-details .post-name a:hover,
+.blogloop-v5 .post-details .post-sticky-label i,
+header.header2 .header-info-group .header_text_title strong,
+.widget_recent_entries_with_thumbnail li:hover a,
+.widget_recent_entries li a:hover,
+.blogloop-v1 .post-details .post-sticky-label i,
+.blogloop-v2 .post-details .post-sticky-label i,
+.blogloop-v3 .post-details .post-sticky-label i,
+.blogloop-v4 .post-details .post-sticky-label i,
+.blogloop-v5 .post-details .post-sticky-label i,
+.mt_listing--price-day.mt_listing--price .mt_listing_price,
+.mt_listing--price-day.mt_listing--price .mt_listing_currency,
+.mt_listing--price-day.mt_listing--price .mt_listing_per,
+.error-404.not-found h1,
+.header-info-group i,
+.related.products ul.products li.product .button,         
+.error-404.not-found h1,
+.header-info-group i,
+body .lms-course-infos i,
+.action-expand::after,
+.list-view .post-details .post-excerpt .more-link:hover,
+.header4 header .right-side-social-actions .social-links a:hover i,
+#navbar .menu-item.selected > a, #navbar .menu-item:hover > a,
+.sidebar-content .widget_nav_menu li a:hover,
+.blog-posts-shortcode-v2 .post-details .post-category {
+    color: #ffd600;
+}
+/* NAVIGATION */
+.navstyle-v8.header3 #navbar .menu > .menu-item.current-menu-item > a, 
+.navstyle-v8.header3 #navbar .menu > .menu-item:hover > a,
+.navstyle-v1.header3 #navbar .menu > .menu-item:hover > a,
+.navstyle-v1.header2 #navbar .menu > .menu-item:hover > a,
+#navbar ul.sub-menu li a:hover,
+.navstyle-v4 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v4 #navbar .menu > .menu-item:hover > a,
+.navstyle-v3 #navbar .menu > .menu-item.current-menu-item > a, 
+.navstyle-v3 #navbar .menu > .menu-item:hover > a,
+.navstyle-v3 #navbar .menu > .menu-item > a::before, 
+.navstyle-v3 #navbar .menu > .menu-item > a::after,
+.navstyle-v2 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v2 #navbar .menu > .menu-item:hover > a,
+#navbar .menu-item.selected > a, #navbar .menu-item:hover > a{
+    color: #ffd600;
+}
+.navstyle-v2.header3 #navbar .menu > .menu-item > a::before,
+.navstyle-v2.header3 #navbar .menu > .menu-item > a::after,
+.navstyle-v8 #navbar .menu > .menu-item > a::before,
+.navstyle-v7 #navbar .menu > .menu-item .sub-menu > .menu-item > a:hover,
+.navstyle-v7 #navbar .menu > .menu-item.current_page_item > a,
+.navstyle-v7 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v7 #navbar .menu > .menu-item:hover > a,
+.navstyle-v6 #navbar .menu > .menu-item.current_page_item > a,
+.navstyle-v6 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v6 #navbar .menu > .menu-item:hover > a,
+.navstyle-v5 #navbar .menu > .menu-item.current_page_item > a, 
+.navstyle-v5 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v5 #navbar .menu > .menu-item:hover > a,
+.navstyle-v2 #navbar .menu > .menu-item > a::before, 
+.navstyle-v2 #navbar .menu > .menu-item > a::after{
+    background: #ffd600;
+}
+/* Color Dark / Hovers */
+footer .footer-top .menu li.menu-item a:hover,
+.related-posts .post-name:hover a{
+    color: #e5c000 !important;
+}
+/*------------------------------------------------------------------
+    BACKGROUND + BACKGROUND-COLOR
+------------------------------------------------------------------*/
+.tagcloud > a:hover,
+.modeltheme-icon-search,
+.wpb_button::after,
+.rotate45,
+.latest-posts .post-date-day,
+.latest-posts h3, 
+.latest-tweets h3, 
+.latest-videos h3,
+.button.solid-button, 
+button.vc_btn,
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.pricing-table.Recommended .table-content, 
+.pricing-table.recommended .table-content, 
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.block-triangle,
+.owl-theme .owl-controls .owl-page span,
+body .vc_btn.vc_btn-blue, 
+body a.vc_btn.vc_btn-blue, 
+body button.vc_btn.vc_btn-blue,
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+#subscribe > button[type='submit'],
+.social-sharer > li:hover,
+.prev-next-post a:hover .rotate45,
+.masonry_banner.default-skin,
+.form-submit input,
+.member-header::before, 
+.member-header::after,
+.member-footer .social::before, 
+.member-footer .social::after,
+.subscribe > button[type='submit'],
+.no-results input[type='submit'],
+h3#reply-title::after,
+.newspaper-info,
+header.header1 .header-nav-actions .shop_cart,
+.categories_shortcode .owl-controls .owl-buttons i:hover,
+.widget-title:after,
+h2.heading-bottom:after,
+.single .content-car-heading:after,
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active,
+#primary .main-content ul li:not(.rotate45)::before,
+.wpcf7-form .wpcf7-submit,
+ul.ecs-event-list li span,
+#contact_form2 .solid-button.button,
+.navbar-default .navbar-toggle .icon-bar,
+.modeltheme-search .search-submit,
+.pricing-table.recommended .table-content .title-pricing,
+.pricing-table .table-content:hover .title-pricing,
+.pricing-table.recommended .button.solid-button,
+.blogloop-v5 .absolute-date-badge span,
+.post-category-date a[rel="tag"],
+#navbar .mt-icon-list-item:hover,
+.mt_car--single-gallery.mt_car--featured-single-gallery:hover,
+footer .mc4wp-form-fields input[type="submit"],
+.modeltheme-pagination.pagination .page-numbers.current,
+.pricing-table .table-content:hover .button.solid-button,
+footer .footer-top .menu .menu-item a::before,
+.mt-car-search .submit .form-control,
+.blogloop-v4.list-view .post-date,
+header .top-header,
+.navbar-toggle .icon-bar,
+.back-to-top,
+.hover-components .component a:hover,
+.related.products span.onsale,
+table.compare-list .add-to-cart td a,
+.shop_cart,
+.back-to-top,
+#listings_metaboxs input[type="submit"],
+.mt_listing--single-price-inner,
+input.wpcf7-form-control.wpcf7-submit,
+.post-password-form input[type="submit"],
+.widget.widget_product_search button,
+.search-form input[type="submit"],
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a,
+.post-password-form input[type='submit'] {
+    background: #ffd600;
+}
+body .courses-list .featured_image_courses .course_badge i,
+body .courses-list .shortcode_course_content,
+.header_mini_cart .button.wc-forward,
+.header_mini_cart .button.checkout {
+    background-color: #ffd600 !important;
+}
+.modeltheme-search.modeltheme-search-open .modeltheme-icon-search, 
+.no-js .modeltheme-search .modeltheme-icon-search,
+.modeltheme-icon-search:hover,
+.latest-posts .post-date-month,
+.button.solid-button:hover,
+body .vc_btn.vc_btn-blue:hover, 
+body a.vc_btn.vc_btn-blue:hover, 
+.post-category-date a[rel="tag"]:hover,
+.single-post-tags > a:hover,
+body button.vc_btn.vc_btn-blue:hover,
+.blogloop-v5 .absolute-date-badge span:hover,
+.mt-car-search .submit .form-control:hover,
+#contact_form2 .solid-button.button:hover,
+.subscribe > button[type='submit']:hover,
+footer .mc4wp-form-fields input[type="submit"]:hover,
+.no-results.not-found .search-submit:hover,
+#listings_metaboxs input[type="submit"]:hover,
+.no-results input[type='submit']:hover,
+ul.ecs-event-list li span:hover,
+.pricing-table.recommended .table-content .price_circle,
+.pricing-table .table-content:hover .price_circle,
+#modal-search-form .modal-content input.search-input,
+.wpcf7-form .wpcf7-submit:hover,
+.form-submit input:hover,
+.blogloop-v4.list-view .post-date a:hover,
+.pricing-table.recommended .button.solid-button:hover,
+.search-form input[type="submit"]:hover,
+.modeltheme-pagination.pagination .page-numbers.current:hover,
+.error-return-home.text-center > a:hover,
+.pricing-table .table-content:hover .button.solid-button:hover,
+.post-password-form input[type="submit"]:hover,
+.navbar-toggle .navbar-toggle:hover .icon-bar,
+.back-to-top:hover{
+    background: #e5c000;
+}
+.tagcloud > a:hover{
+    background: #e5c000 !important;
+}
+.hover-components .component a,
+.flickr_badge_image a::after,
+.thumbnail-overlay,
+.portfolio-hover,
+.pastor-image-content .details-holder,
+.item-description .holder-top,
+blockquote::before {
+    background: rgba(255, 214, 0, 0.7);
+}
+/*------------------------------------------------------------------
+    BORDER-COLOR
+------------------------------------------------------------------*/
+.comment-form input, 
+.comment-form textarea,
+.author-bio,
+blockquote,
+.widget_popular_recent_tabs .nav-tabs > li.active,
+body .left-border, 
+body .right-border,
+body .member-header,
+body .member-footer .social,
+body .button[type='submit'],
+.navbar ul li ul.sub-menu,
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active,
+#contact-us .form-control:focus,
+.sale_banner_holder:hover,
+.testimonial-img,
+.wpcf7-form input:focus, 
+.header_mini_cart,
+.header_mini_cart.visible_cart,
+.wpcf7-form textarea:focus,
+.navbar-default .navbar-toggle:hover, 
+.header_search_form,
+body .course-review-head, body .course-content > h3:first-child, body .course-curriculum-title,
+.list-view .post-details .post-excerpt .more-link:hover{
+    border-color: #ffd600;
+}
+header .navbar-toggle,
+.navbar-default .navbar-toggle{
+    border: 3px solid #ffd600;
+}
+.fixed-sidebar-menu{
+    background-color:rgba(37,37,37,0.95);
+}
+#navbar .menu-item > a, .navbar-nav .search_products a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a{
+    color:#ffffff;
+}
+body #navbar .menu-item.selected > a, body #navbar .menu-item:hover > a{
+    color:#ffd600;
+}
+#navbar .sub-menu, .navbar ul li ul.sub-menu{
+    background-color:#f7f7f7;
+}
+#navbar ul.sub-menu li a{
+    color:#252525;
+}
+#navbar ul.sub-menu li a:hover{
+    background-color:transparent;
+}
+#modeltheme-main-head.navbar-default{
+    background-color:#252525;
+}
+.fixed-sidebar-menu{
+    background-color:rgba(255,255,255,0.95);
+}
+
+.single article .article-content p,p,.post-excerpt{
+    font-family:Montserrat;
+    line-height:25px;
+    color:#a7a7a7;
+    font-size:15px;
+}
+.wpb_animate_when_almost_visible {
+     opacity: 1;
+}
+.ccpw-widget{
+    background-color:#fcfcfc;
+} 
+.ccpw-widget .ccpw_table tr {
+    background-color:#fcfcfc;
+}  
+.ccpw_table span.name {
+    color:#000;
+}   
+.ccpw_table span.coin_symbol {
+    color:#000;
+}
+.ccpw_table th{
+    color:#000;
+}
+.ccpw_table span.price {
+    color:#000;
+} 
+.ccpw_table .price-value{
+    color:#000;
+}
+.btn-sticky-left {
+    background: #6cd087 none repeat scroll 0 0;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 25px rgba(37, 37, 37, 0.4);
+    left: 0;
+    position: fixed;
+    top: 38%;
+    z-index: 99;
+}
+.btn-sticky-left a i {
+    color: #252525;
+    font-size: 18px;
+}
+.btn-sticky-left:hover > a {
+    width: 50px;
+}
+.btn-sticky-left > a {
+    padding: 10px;
+    display: block;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    transition: all 250ms ease-in-out;
+}
+.tickercontainer{
+    background-color:#ffd600;
+}
+.tickercontainer span.name, 
+.tickercontainer span.coin_symbol,
+.tickercontainer span.price,
+.tickercontainer .price-value{
+    color:#000;
+}
+.ccpw-header-ticker-fixedbar{
+    top:33px;
+}
+.buy-coin a {
+    background-color: #ffd600;
+    color: #252525;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 18px 25px;
+}
+.buy-coin a:hover,
+.buy-coin button:hover {
+    background-color: #e5c000;
+    color: #252525;
+}
+.single_bar span {
+    color: #252525;
+}
+.modeltheme-countdown > div {
+    border: 4px solid #ffffff;
+}
+.cryptic_time_close h4,
+.cryptic_time_close h3 {
+    color: rgba(255,255,255,0.7);
+    line-height: 30px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal
+}
+.cryptic_time_close h1 {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 60px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal 
+}
+.cryptic_time_close .title-subtile-holder  h1 {
+    font-size: 30px;
+}
+.cryptic_customer {
+    background-color: #ffd600;
+}
+.cryptic_customer h2 {
+    font-size: 30px;
+    color: #252525;
+    line-height: 35px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.cryptic_customer p span {
+    color: #666666; 
+    font-size: 16px; 
+    line-height: 25px; 
+    font-weight: 400;
+}
+
+/* 3. Section2 - Token sale stats */
+.live-coin-v3 {
+    background: #252525;
+    margin: 0 auto;
+    padding: 30px;
+}
+.show-code.show-code-left {
+    float: left;
+}
+.live-coin a.show-code i {
+    font-size: 55px;
+    color: #ffd500;
+}
+.background-black {
+    background: #252525;
+    color: rgba(255, 255, 255, 0.87);
+}
+.element-box-shadow {
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05) !important;
+}
+.pricing-tables-live th {
+    color: #9aa7af;
+}
+.members_img_holder .member01_name.light_name,
+.light_position {
+    color: #fff;
+}
+.ccpw_table {
+    border:none!important;
+}
+.dark-version .mc4wp-form input[type="submit"]:hover,
+.cryptic_ico_filter_big_db .mt-car-search .submit .form-control:hover {
+    opacity: 0.9;
+    color: #252525;
+}
+.button-winona.btn.btn-medium.btn_custom_whitepaper:hover {
+    opacity: 0.9;
+    color: #6cd086;
+}
+.data_background{
+    background-repeat: no-repeat;
+}
+.page-fill {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.transparent-nav,
+.is_header_semitransparent .navbar-default.transparent-nav,
+#modeltheme-main-head.navbar-default.transparent-nav {
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+#modeltheme-main-head.navbar-default.bck-blue {
+    background-color: #22339D;
+}
+.is_header_semitransparent .navbar-default {
+    background: rgba(255, 255, 255, 0.0) none repeat scroll 0 0;
+}
+.is_header_semitransparent .sticky-wrapper.is-sticky .navbar-default {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+}
+.decentralized-h2-total {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+    margin: 10px;
+}
+.decentralized-h2-amount {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+    margin: 0px;
+}
+.decentralized-total-contribution {
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+.icon-bullseye-decentralized  {
+    margin-right:7px; 
+    color:#6cd087;
+    font-size:13px;
+}
+.fa.fa-caret-right.icon-caret-decentralized {
+    margin-right:10px; 
+    color:#6cd087;
+    font-size:20px;
+}
+.sep_line {
+    height: 1px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    display: block;
+    position: relative;
+    top: 1px;
+    width: 100%;
+}
+.mt_slider_members_team1 h5,
+.mt_slider_members_team2 h5 {
+    color:rgba(255,255,255,0.7);
+}
+.decentralized-customer h2 {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 62px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.decentralized-customer h3 {
+    font-size: 20px;
+    color: rgba(255,255,255,0.7);
+    line-height: 30px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.cryptic-one-page #navbar .menu > .menu-item > a {
+    padding: 29px 13px;
+}
+.to_whitepaper {
+    background: linear-gradient(to left, #4babf8 0%, #2d6ff6 40%, #4babf8 100%) !important;
+    padding: 1px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#navbar .menu .to_whitepaper.menu-item a {
+    border: solid 8px transparent;
+    padding: 0px 13px !important;
+    border-radius: 5px;
+}
+#to_initial h1 {
+    font-size: 54px;
+    color: #ffffff;
+    line-height: 65px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+#to_initial h2 {
+    font-size: 24px;
+    color: #6cd087;
+    line-height: 24px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+#to_initial h3 {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.bitwallet-btn.modeltheme_button .btn_custom_blue_grad {
+    background: #4babf8; /* Old browsers */
+    background: -moz-linear-gradient(to left, #4babf8 0%, #2d6ff6 40%, #4babf8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to left, #4babf8 0%, #2d6ff6 40%, #4babf8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, #4babf8 0%, #2d6ff6 40%, #4babf8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#4babf8, endColorstr=#2d6ff6,GradientType=0 ); /* IE6-9 */
+    border: 1px solid rgba(255,255,255,0.01);
+    background-position: 0%;
+    background-size: 200% 200%;
+    transition: all 250ms ease-in;
+    -ms-transition: all 250ms ease-in;
+    -webkit-transition: all 250ms ease-in;
+}
+#to_initial .bitwallet-btn.modeltheme_button .btn_custom_blue_grad:hover {
+    border-color:rgba(255,255,255,0.01);
+    background-position: 100% !important;
+}
+.cryptic_one_page.data_background {
+    background-position: center;
+    background-position: right;
+}
+#navbar .menu .to_whitepaper.menu-item a:hover {
+    background: transparent !important;
+    color: #fff !important;
+}
+.bitwallet-btn .button-winona.btn.btn-medium.btn_to_whitepaper {
+    background: rgba(255,255,255,0.01);
+    background: -moz-linear-gradient(to left, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 40%, rgba(255,255,255,0.01) 100%);
+    background: -webkit-linear-gradient(to left, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 40%, rgba(255,255,255,0.01) 100%);
+    background: linear-gradient(to left, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 40%, rgba(255,255,255,0.01) 100%);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgba(255,255,255,0.01), endColorstr=rgba(255,255,255,0.01),GradientType=0 );
+    border: 1px solid #337af6;
+    background-position: 0%;
+    background-size: 200% 200%;
+    transition: all 250ms ease-in;
+    -ms-transition: all 250ms ease-in;
+    -webkit-transition: all 250ms ease-in;
+}
+.bitwallet-btn.modeltheme_button .btn.btn_to_whitepaper:hover {
+    background: linear-gradient(to left, #4babf8 0%, #2d6ff6 40%, #4babf8 100%);
+}
+.back-to-top-one-page.back-to-top {
+    background: #6cd087; 
+}
+.back-to-top-one-page.back-to-top:hover{
+    background: #a3d1ae; 
+}
+.decentralized-svg-version .c-sign-up-form-input {
+    background-position: 0%;
+    background-size: 200% 200%;
+    border-radius: 4px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    transition: all .2s ease-in-out;
+    height: 55px;
+    margin-right: 10px;
+    width: 65%;
+    float: left;
+}
+.decentralized-svg-version .c-sign-up-form-input input::placeholder {
+    color: #fff !important;
+}
+.decentralized-svg-version .mc4wp-form input[type="submit"] {
+    background-image: linear-gradient(to left, #4babf8 0%, #2d6ff6 60%, #4babf8 100%);
+    background-position: 0%;
+    background-size: 200% 200%;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    min-width: 150px;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.decentralized-svg-version .mc4wp-form input[type="submit"]:not(:disabled):hover {
+    background-position: 100%;
+}
+.section-border.green_border {
+    background: rgba(0, 0, 0, 0) url(../images/delimit-green.png) no-repeat scroll center center;
+}
+
+.title-subtile-holder {
+    padding-top: 45px;
+}
+.linkedin-profile {
+    position: absolute;
+    right: 34%;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50px;
+}
+.linkedin-profile i {
+    color: #6cd087;
+}
+
+/* 4. Section2 - Token sale stats - CHARTS */
+#chartdiv,
+#chartdiv-a {
+  width: 70%;
+  height: 500px;
+}  
+#chartdiv a,
+#chartdiv-a a,
+.amcharts-export-menu ul li a {
+    display: none !important;
+}
+#chartdiv {
+  margin-left: -150px;
+}  
+#chartdiv-a {
+    float: right;
+    margin-right: -150px;
+    margin-top: -370px;
+} 
+.token-distribution {
+    width: 70%;
+}
+.amcharts-pie-label {
+    fill: #fff;
+}
+.token-distribution .section-title,
+.token-distribution .section-border,
+.token-distribution .section-subtitle {
+    text-align: left;
+    background-position: left;
+    width: 100%;
+}
+/* 5. YOUTOBE video */
+.video-background {
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+.playerBox {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+/* 6. News */
+.single-post.list-view {
+    background: #2735b5;
+}
+.bitwallet_news .blog-posts-shortcode.blog-posts .list-view .blog_custom {
+    border: none;
+}
+.bitwallet_news .blog-posts-shortcode.blog-posts .list-view .post-details .post-name a,
+.bitwallet_news .blog-posts-shortcode .text-element.content-element p,
+.bitwallet_news .comments {
+    color: #fff;
+}
+.bitwallet_news .blog-posts-shortcode.blog-posts .list-view .post-details .post-name a:hover,
+.bitwallet_news .blog-posts-shortcode .text-element.content-element p a:hover {
+    color: #6cd087;
+}
+.float-right {
+    float: right;
+}
+/* 7. Blog */
+.one-page-blog {
+    background: #171055;
+}
+.one-page-blog .blogloop-v1 .post-name a {
+    color: white;
+}
+.one-page-blog .list-view .blog_custom {
+    background: #2735b5;
+}
+.one-page-blog .blog_heading.heading-bottom {
+    color: white;
+}
+.header-title-breadcrumb .header-title-breadcrumb-overlay {
+    background: #171055;
+}
+.header-title-breadcrumb .header-title-breadcrumb-overlay h1 {
+    color: white;
+}
+.one-page-blog .single-post.list-view {
+    background-color: transparent;
+}
+.one-page-blog .list-view .post-details .post-excerpt .more-link:hover {
+    border-color: #6cd087;
+}
+.one-page-blog .list-view .post-details .post-excerpt .more-link:hover {
+    color: #6cd087;
+}
+.one-page-blog .list-view .post-details .post-excerpt .more-link {
+    border-color: #fff; 
+    color: #fff;
+}
+.one-page-blog .widget_search .search-field {
+    background: #2735b5;
+    border: none;
+    font-weight: bold;
+}
+.one-page-blog .widget_search .search-field::placeholder{
+    color: #ffffff;
+}
+.one-page-blog .search-form input[type="submit"],
+.one-page-blog .single .content-car-heading::after, 
+.one-page-blog .widget-title::after, 
+.one-page-blog h3#reply-title::after,
+.one-page-blog h2.heading-bottom::after {
+    background: #6cd087;
+}
+.one-page-blog .sidebar-content .widget-title,
+.one-page-blog .ccpw_table th,
+.one-page-blog .ccpw_table .price-value,
+.one-page-blog .ccpw_table span.name,
+.one-page-blog .ccpw_table span.coin_symbol {
+    color: #ffffff;
+}
+.widget-title, 
+h3#reply-title, 
+h2.heading-bottom {
+    font-size: 24px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(204,204,204,0.3);
+    position: relative;
+    font-weight: bold;
+}
+.single .content-car-heading::after, 
+.widget-title::after, 
+h3#reply-title::after,
+h2.heading-bottom::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 150px;
+    height: 3px;
+}
+.one-page-blog .ccpw-widget,
+.one-page-blog .ccpw-widget .ccpw_table tr {
+    background-color: transparent;
+}
+.ccpw_table .ccpw_icon.ccpw_coin_logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+.ccpw_table .ccpw_coin_info {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 4px;
+}
+.ccpw_table span.name {
+    font-size: 16px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+.ccpw_table tr td {
+    padding: 8px 4px;
+}
+.ccpw_table th, td {
+    border-bottom: 1px solid rgba(204,204,204,0.3) !important;
+}
+.coin_symbol {
+    padding-left: 5px;
+}
+.one-page-blog  .pagination .page-numbers {
+    background-color: transparent;
+    border: 1px solid rgba(204,204,204,0.85);
+    color: #fff;
+}
+.one-page-blog  .pagination .page-numbers:hover,
+.modeltheme-pagination.pagination .page-numbers.current:hover {
+    background-color: #2735b5;
+    border: 1px solid #2735b5;
+}
+.modeltheme-pagination.pagination .page-numbers.current{
+    color: #fff;
+    background-color: #2735b5;
+}
+.sidebar-content .widget_recent_comments li.recentcomments:hover a{
+    color: #6cd087;
+}
+/* 8. Blog V2 */
+.post-title a,
+a.more-link{
+    color: #ffffff;
+}
+.article-content a.more-links {
+    border-radius: 3px;
+    border: 2px solid;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin: 10px 0 0;
+    display: inline-block;
+    padding: 5px 15px;
+    transition: all ease-in-out 0.3s;
+    background: transparent !important;
+    border-color: #ffffff;     
+}
+.article-content a.more-links:hover {
+    color: #6cd087;
+    border-color: #6cd087;
+}
+.post-title:hover a{
+    color: #6cd087;
+}
+a.more-link:hover,
+.one-page-blog .post-category-comment-date span:hover {
+    color: #6cd087;
+}
+a.preview-post span {
+    margin-right: 20px;
+}
+/* 9. Blog Single */
+.ccpw_table.table-blog-affiliate {
+    width: 100%;
+}
+.ccpw_table {
+    width: 100%;
+}
+.changes.up,
+.sticky-posts .post .related_blog_details .post-author a,
+.prev-next-post .next-post a span,
+.prev-next-post .next-post a span:hover,
+.prev-next-post .next-post a i,
+.one-page-blog .post-category-comment-date span a:hover,
+.one-page-blog .widget_archive li a:hover,
+.one-page-blog .widget_categories .cat-item:hover,
+.one-page-blog .sidebar-content .widget_nav_menu li a:hover,
+.one-page-blog .widget_categories li a:hover,
+.one-page-blog .widget_meta a:hover {
+    color: #6cd087;
+}
+.one-page-blog .comment-form input, 
+.one-page-blog .comment-form textarea {
+    border: 1px solid #6cd087;
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+}
+.one-page-blog .form-submit input {
+    background-color: #6cd087;
+}
+.one-page-blog .search-form input[type="submit"]:hover,
+.one-page-blog .comment-form input[type="submit"]:hover {
+    background-color: #92dca6;
+}
+.related_blog_custom a,
+.related_blog_details .post-author {
+    color: #fff;
+}
+.related-posts .post-author {
+    opacity: 0.85;
+}
+.related-posts .post-author > a {
+    display: inline;
+}
+.post-details-bottom .related-posts .related_blog_custom .related_blog_details .post-name:hover a,
+#navbar .menu-item:hover > a,
+#navbar .menu-item > a:hover,
+.breadcrumb a,
+.breadcrumb a:hover,
+.one-page-blog .widget_recent_entries li a:hover {
+    color: #6cd087 !important;
+}
+.breadcrumb > .active {
+    color: rgba(255,255,255,0.8);
+}
+.cc.ETH {
+    color: gray;
+}
+.cryptic-one-page .blog-posts-shortcode.blog-posts .list-view .blog_custom {
+    border: none;
+}
+.cryptic-one-page .blog-posts-shortcode.blog-posts .list-view .post-details .post-name a,
+.cryptic-one-page .blog-posts-shortcode .text-element.content-element p {
+    color: white;
+}
+@media (min-width: 766px) and (max-width: 768px){
+    body .navbar-header h1.logo {
+        text-align: left;
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .to_whitepaper {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: auto;
+    }
+}
+/* 10. Footer */
+footer .footer-top{
+    background-size:cover;
+    background-image:url('../images/footer.jpg');
+}
+footer .footer-top h1.widget-title, footer .footer-top h3.widget-title, footer .footer-top .widget-title{
+    color:#ffffff;
+}
+.footer-row-1{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.footer-row-1{
+    margin-top:0;
+    margin-bottom:0;
+}
+.footer-row-1{
+    border-top:0px solid #515b5e;
+    border-bottom:0px solid #515b5e;
+    border-left:0px solid #515b5e;
+    border-right:0px solid #515b5e;
+}
+footer .footer{
+    background-color:#202020;
+}
+footer .footer h1.widget-title, footer .footer h3.widget-title, footer .footer .widget-title{
+    color:#ffffff;
+}
+/* 11. Preloader */
+.cryptic_preloader_holder {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10003;
+}
+.cryptic_preloader_holder .loaders {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+.cryptic_preloader_holder {
+    background:   #6cd087;
+}
+body #navbar .menu-item > a {
+    color: #fff !important;
+}

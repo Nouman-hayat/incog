@@ -1,0 +1,64 @@
+/*------------------------------------------------------------------
+[Master Stylesheet] - [Table of contents]
+1. FONTS
+2. COLORS
+------------------------------------------------------------------- */
+/*---------------------------------------------*/
+/*--- 1. FONTS ---*/
+/*---------------------------------------------*/
+body{
+    font-family: 'Montserrat';
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6{
+    font-family: 'Montserrat';
+}
+p{
+    font-family: 'Montserrat';
+}
+/*---------------------------------------------*/
+/*--- 2. COLORS ---*/
+/*---------------------------------------------*/
+/*DEFAULT COLOR: #483ca8 */
+.transparent-nav,
+.is_header_semitransparent .navbar-default.transparent-nav,
+#modeltheme-main-head.navbar-default.transparent-nav {
+    background: rgba(72,60,168,0.9);
+}
+.cryptic-one-page-skin2 #navbar .menu .to_whitepaper.menu-item a {
+    background: #483ca8;
+}
+body.is_header_semitransparent.cryptic-one-page-skin2 #navbar .menu > .menu-item > a:hover,
+.cryptic-one-page-skin2 .timelinehorizontal .arrows .arrow__next,
+.cryptic-one-page-skin2 .timelinehorizontal .arrows .arrow__prev {
+    color: #6cd087;
+}
+.cryptic-one-page-skin2 .page-fill,
+.cryptic-one-page-skin2 .cryptic_one_page.data_background {
+    background-color: #483ca8;
+}
+.cryptic-one-page-skin2 .decentralized-total-contribution,
+.cryptic-one-page-skin2 .timelinehorizontal ol li div,
+.cryptic-one-page-skin2 .testimonials02-container.owl-carousel,
+.cryptic-one-page-skin2 .timelinehorizontal ol li::after,
+.cryptic-one-page-skin2 .footer-div-parent,
+.cryptic-one-page-skin2 footer .footer {
+    background-color: #3653f5 !important;
+}
+.cryptic-one-page-skin2 .cryptic-footer-one-page a,
+.cryptic-one-page-skin2 .cryptic-footer-one-page a:hover {
+    color: #fff;
+}
+.cryptic-one-page-skin2 .border-right {
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+.cryptic-one-page-skin2 .timelinehorizontal .arrows {
+    margin-top: 30px;
+}
+.cryptic-one-page-skin2 .decentralized-svg-version .c-sign-up-form-input input {
+    background: #3b4cde!important;
+}

@@ -1,0 +1,74 @@
+/*------------------------------------------------------------------
+[Master Stylesheet] - [Table of contents]
+1. FONTS
+2. COLORS
+------------------------------------------------------------------- */
+/*---------------------------------------------*/
+/*--- 1. FONTS ---*/
+/*---------------------------------------------*/
+body{
+    font-family: 'Montserrat';
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6{
+    font-family: 'Montserrat';
+}
+p{
+    font-family: 'Montserrat';
+}
+/*---------------------------------------------*/
+/*--- 2. COLORS ---*/
+/*---------------------------------------------*/
+/*DEFAULT COLOR: #171055 */
+
+.transparent-nav,
+.is_header_semitransparent .navbar-default.transparent-nav,
+#modeltheme-main-head.navbar-default.transparent-nav {
+    background: rgba(23,16,85,0.9);
+}
+#navbar .menu .to_whitepaper.menu-item a {
+    background: #171055;
+}
+body.is_header_semitransparent #navbar .menu > .menu-item > a:hover {
+    color: #3653f5;
+}
+.timelinehorizontal .arrows .arrow__next,
+.timelinehorizontal .arrows .arrow__prev {
+    color: #6cd087;
+} 
+.page-fill {
+    background-color: #171055;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cryptic_one_page.data_background {
+    background-color: #171055;
+}
+.decentralized-total-contribution,
+.timelinehorizontal ol li div,
+.testimonials02-container.owl-carousel,
+.timelinehorizontal ol li::after,
+.footer-div-parent,
+footer .footer {
+    background-color: #2735b5 !important;
+}
+.cryptic-footer-one-page a {
+    color: #6cd087; 
+}
+.cryptic-footer-one-page a:hover {
+    color: #a3d1ae; 
+}
+.border-right {
+    border-right: 1px solid #3d4abd;
+}
+.timelinehorizontal .arrows {
+    margin-top: 30px;
+}
+.decentralized-svg-version .c-sign-up-form-input input {
+    background: rgba(39, 53, 181, 0.9) !important;
+}

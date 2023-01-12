@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='noindex,follow' />
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>BitWallet &#8211; Cryptocurrency ICO Landing Page HTML Template</title>
+    
+    <!-- CSS -->
+    <link rel='stylesheet' type='text/css' media='all' href="assets/css/simple-line-icons.css"/>
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/cryptocoins.css'/>
+    <link rel='stylesheet' type='text/css' media='all' href='assets/css/style-inline.css'/>
+	<link rel='stylesheet' type='text/css' media='all' href='assets/css/media-screens.css' />
+	<link rel='stylesheet' type='text/css' media='all' href='assets/css/owl.carousel.css' />
+	<link rel='stylesheet' type='text/css' media='all' href='assets/css/animate.css' />
+	<link rel='stylesheet' type='text/css' media='all' href='assets/css/responsive.css' />
+	<link rel='stylesheet' type='text/css' media='all' href='assets/css/style.css' />
+    <link id="ui-current-skin" rel='stylesheet' type='text/css' media='all' href="assets/css/skin-colors/skin0.css"/>
+	<link rel='stylesheet' type='text/css' media='all' href='assets/plugins/font-awesome/css/font-awesome.min.css' />
+	<link rel='stylesheet' type='text/css' media='all' href='assets/plugins/select2/select2.min.css' />
+
+    <link rel="stylesheet" type="text/css" media="all" href="assets/plugins/amcharts/export.css" />
+    <!-- Fonts -->
+	<link rel='stylesheet' type='text/css' media='all' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%7CRaleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CDroid+Serif%3A400%2C700%7CMontserrat%7CMontserrat%3Aregular%2C700%2Clatin'/>
+
+</head>
+
+<body class="page-template-default page page-child footer_row1_off is_header_semitransparent cryptic-one-page is_nav_sticky">
+    <div class="cryptic_preloader_holder cryptic_preloader_holder_ico v2_ball_pulse">
+    	<div class="cryptic_preloader v2_ball_pulse">
+            <div class="loaders">
+                <div class="loader">
+                    <div class="loader-inner ball-pulse">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modeltheme-modal" id="modal-log-in">
+        <div class="modeltheme-content" id="login-modal-content">
+            <h3 class="relative"> Login to Your Account </h3>
+            <div class="modal-content row">
+                <div class="col-md-12">
+                    <div class="alert alert-success alert-dismissible cryptic-demo-login">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong>Username:</strong> cryptic_demo
+                        <br/>
+                        <strong>Password:</strong> cryptic_demo
+                    </div>
+
+                    <form name="loginform" id="loginform" method="post">
+                        <p class="login-username">
+                            <label for="user_login">Username or Email Address</label>
+                            <input type="text" name="log" id="user_login" class="input" value="" size="20" />
+                        </p>
+                        <p class="login-password">
+                            <label for="user_pass">Password</label>
+                            <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+                        </p>
+                        <p class="login-remember">
+                            <label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label>
+                        </p>
+                        <p class="login-submit">
+                            <input type="submit" name="submit" id="submit" class="button button-primary" value="Log In" />
+                            <input type="hidden" name="redirect_to" value="" />
+                        </p>
+                    </form>
+                    <p class="um-notice err text-center">Registration is currently disabled</p>
+                </div>
+            </div>
+        </div>
+        <div class="modeltheme-content" id="signup-modal-content">
+            <h3 class="relative"> Personal Details </h3>
+            <div class="modal-content row">
+                <div class="col-md-12"> [ultimatemember form_id=16587] </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modeltheme-overlay"></div>
+    <!-- Fixed Search Form -->
+    <div class="fixed-search-overlay">
+        <!-- Close Sidebar Menu + Close Overlay -->
+        <i class="icon-close icons"></i>
+        <!-- INSIDE SEARCH OVERLAY -->
+        <div class="fixed-search-inside">
+            <div class="modeltheme-search">
+                <form method="GET" action="#">
+                    <input class="search-input" placeholder="Enter search term..." type="search" value="" name="s" id="search" />
+                    <i class="fa fa-search"></i>
+                    <input type="hidden" name="post_type" value="post" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed Sidebar Overlay -->
+    <div class="fixed-sidebar-menu-overlay"></div>
+    <!-- Fixed Sidebar Menu -->
+    <div class="relative fixed-sidebar-menu-holder header7">
+        <div class="fixed-sidebar-menu">
+            <!-- Close Sidebar Menu + Close Overlay -->
+            <i class="icon-close icons"></i>
+            <!-- Sidebar Menu Holder -->
+            <div class="header7 sidebar-content">
+                <!-- RIGHT SIDE -->
+                <div class="left-side">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/Vector-Smart-Object2.png" alt="BitWallet" />
+                        </a>
+                    </h1>
+                    <aside id="search-3" class="widget widget_search">
+                        <form role="search" method="get" class="search-form" action="#">
+                            <label>
+                                <span class="screen-reader-text">Search for:</span>
+                                <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+                            </label>
+                            <input type="submit" class="search-submit" value="Search" />
+                        </form>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- PAGE #page -->
+    <div id="page" class="hfeed site">
+        <header class="header4">
+	  		<!-- BOTTOM BAR -->
+			<nav class="navbar navbar-default transparent-nav">
+			    <div class="container">
+			        <div class="row">
+			          	<!-- LOGO -->
+			          	<div class="navbar-header col-md-2">
+			            	<!-- NAVIGATION BURGER MENU -->
+			            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				                <span class="sr-only"></span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+			            	</button>
+				            <h1 class="logo">
+				                  <a href="index.html">
+				                      <img src="assets/images/Vector-Smart-Object1.png" alt="BitWallet" />
+				                  </a>
+				            </h1>
+			            </div>
+				                                                                
+				        <!-- NAV MENU -->
+                        <div id="navbar" class="navbar-collapse collapse col-md-10">
+                            <div class="menu nav navbar-nav pull-right nav-effect nav-menu">
+                                <div class="menu-one-page-container">
+                                    <ul id="menu-one-page" class="menu">
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Home</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#to_token_sale">Token sale</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#to_products">Blockchain</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#to_roadmap">Timeline</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#to_team">Team</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#to_testimonial">Testimonial</a></li>
+                                        <li class="homepages-badge menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children">
+                                            <a href="#">News</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a href="blog.html">Blog V1</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog1.html">Blog V2</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog-single.html">Single Blog Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="to_whitepaper menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="../Whitepaper.pdf">Whitepaper</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+	        		</div>
+	    		</div>
+	  		</nav>
+		</header>
+	    
+	    <!-- HEADER TITLE BREADCRUBS SECTION -->
+        <div class="clearfix"></div>
+        <div class="header-title-breadcrumb relative">
+            <div class="header-title-breadcrumb-overlay text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-6 col-xs-6 text-left">
+                            <h1>Blog Single</h1>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-6">
+                            <ol class="breadcrumb text-right">
+                                <li><a href="index.html">Home</a></li> 
+                                <li class="active">Blog</li>
+                            </ol>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	    <!-- Page content -->
+        <div class="one-page-blog">
+    	    <div class="container padding_80">
+                <div class="row">
+                    <div class="col-md-9 main-content">
+                        <div class="article-header">
+                            <div class="article-details">
+                                <img width="900" height="550" src="assets/images/bitcurrency_theme-1-900x550.jpg" class="attachment-cryptic_blog_900x550   size-cryptic_blog_900x550 wp-post-image" alt="" />
+                                <div class="clearfix"></div>
+                                <h1 class="post-title text-white">
+                                   <strong>Affiliate program</strong>
+                                </h1>
+                                <div class="post-category-comment-date row">
+                                    <span class="post-date"><i class="icon-calendar"></i>April 4,2017</span>
+                                    <span class="post-categories">
+                                        <i class="icon-tag"></i>
+                                        <a href="#" rel="tag">Crypto</a>
+                                    </span>
+                                    <span class="post-author">
+                                        <i class="icon-user icons"></i>
+                                        <a href="#">Robert Downey</a>
+                                    </span>
+                                    <span class="post-comments">
+                                        <i class="icon-bubbles icons"></i>
+                                        <a href="#">0</a>
+                                    </span>  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CONTENT -->
+                        <div class="article-content">
+                            <p>Nemo enim ipsam voluptatem quia volup tas sit aspernatur aut odit aut fu sed quia conse quun tur magni dolor quia. In scelerisque turpis vel bibendum sodales. Nunc consectetur nec mi eu vehicula.</p>
+                            <p><span></span></p>
+                            <p>Praesent et tincidunt magna, eget consectetur nunc. Ut vestibulum cursus eros eu pulvinar. Maecenas sagittis odio sit amet lorem pharetra, quis iaculis diam molestie. Sed eros felis, consectetur quis tellus quis, molestie fringilla nunc. Cras volutpat, dolor sodales tincidunt finibus, purus magna lacinia lorem, ullamcorper hendrerit urna tellus at lorem.</p>
+                        </div>
+                        <!-- Cryptocurrency List Widget -->
+                        <h3 class="text-bold text-white">Cryptocurrency List Widget:</h3>
+                        <div class="ccpw-widget">
+                            <table class="ccpw_table table-blog-affiliate">
+                                <thead>
+                                    <tr>
+                                        <th>Crypto Currency</th>
+                                        <th>Price</th>
+                                        <th>24H Changes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc BTC"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Bitcoin</span>
+                                               <span class="coin_symbol">(BTC)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>6855.83</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  1.68%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc ETH"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Ethereum</span>
+                                               <span class="coin_symbol">(ETH)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>     416.979</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  5.1%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc XRP"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Ripple</span>
+                                               <span class="coin_symbol">(XRP)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>     0.489516</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  0.76%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc BCH"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Bitcoin Cash</span>
+                                               <span class="coin_symbol">(BCH)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>     652.101</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  2.79%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc LTC"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Litecoin</span>
+                                               <span class="coin_symbol">(LTC)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>     114.335</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  0.71%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc ADA"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Cardano</span>
+                                               <span class="coin_symbol">(ADA)</span>
+                                            </div>
+                                       </td>
+                                       <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>    0.15502</div>
+                                       </td>
+                                       <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true"></i>  2.79%</span>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc XMR"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Monero</span>
+                                               <span class="coin_symbol">(XMR)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>     166.379</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  0.67%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc DASH"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">Dash</span>
+                                               <span class="coin_symbol">(DASH)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>     301.285</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  1.31%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="ccpw_icon ccpw_coin_logo"><i class="cc XEM"></i></div>
+                                            <div class="ccpw_coin_info">
+                                               <span class="name">NEM</span>
+                                               <span class="coin_symbol">(XEM)</span>
+                                            </div>
+                                        </td>
+                                        <td class="price">
+                                            <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>     0.235486</div>
+                                        </td>
+                                        <td><span class="changes up"><i class="fa fa-arrow-up" aria-hidden="true">   </i>  4.32%</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>&nbsp;</p>
+                        <p>Aenean imperdiet velit quis nulla commodo, ac ornare nibh posuere. Nunc sed sagittis justo, a ultrices magna. Aliquam at pellentesque eros. Aliquam vel suscipit arcu. Nullam malesuada sed ex sit amet consectetur. Suspendisse dui nisi, auctor a lacus finibus, efficitur vehicula lorem. Sed consequat, tortor eget varius semper, mi risus ultrices nulla, placerat ultrices metus nibh sed felis. Aenean pharetra lorem nec vehicula pellentesque. Vestibulum faucibus malesuada justo nec egestas. Maecenas porttitor nisl id massa hendrerit, sed suscipit diam fermentum. Duis pellentesque purus ac nulla rutrum, vitae interdum lorem rutrum. Cras eget arcu scelerisque, auctor mauris convallis, tincidunt justo. Maecenas dictum euismod vestibulum. Vestibulum sed elementum risus. In vitae velit nunc. Fusce ornare odio quis nulla molestie aliquam.</p>
+                        <div class="spacer_40"></div>
+                        <img class="aligncenter wp-image-1994 size-full" src="assets/images/picture13_currency_new.png" alt="" width="570" height="335"/>
+                        <div class="spacer_40"></div>
+                        <p>Nunc a arcu purus. Maecenas id turpis sit amet elit fringilla malesuada id a odio. Phasellus pellentesque magna at felis semper, et ultricies nunc feugiat. Donec convallis mauris sed justo cursus, id sollicitudin felis iaculis. Pellentesque in luctus velit. Proin blandit, elit ac ultricies pulvinar, leo arcu sagittis dolor, ut consectetur diam enim id massa. Curabitur vel erat vitae neque volutpat facilisis. Suspendisse vitae velit diam. Morbi in diam tempor eros scelerisque bibendum vitae quis est. Donec eu tristique lacus. Morbi eu nisl non neque vulputate finibus. Mauris sodales finibus diam, a tincidunt magna viverra in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus hendrerit ex non justo tincidunt tempus et ac turpis.</p>
+                        <p>Vivamus posuere id odio non lacinia. Etiam dignissim lacinia ultrices. Integer dapibus varius lectus sed volutpat. Suspendisse potenti. Ut tortor mi, feugiat in aliquet id, hendrerit a diam. Mauris feugiat tincidunt elit ac pulvinar. Cras cursus sagittis euismod. Aenean eu sollicitudin purus.</p>
+                        <div class="clearfix"></div>
+                        <!-- Social links -->
+                        <div class="article-social">
+                           <ul class="social-sharer">
+                              <li class="facebook">
+                                 <a data-toggle="tooltip" title="Share on Facebook" data-placement="top" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                              </li>
+                              <li class="twitter">
+                                 <a data-toggle="tooltip" title="Tweet on Twitter" data-placement="top" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                              </li>
+                              <li class="google-plus">
+                                 <a data-toggle="tooltip" title="Share on G+" data-placement="top" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                              </li>
+                              <li class="pinterest">
+                                 <a data-toggle="tooltip" title="Pin on Pinterest" data-placement="top" href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                              </li>
+                              <li class="linkedin">
+                                 <a data-toggle="tooltip" title="Share on LinkedIn" data-placement="top" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                              </li>
+                              <li class="reddit">
+                                 <a data-toggle="tooltip" title="Share on Reddit" data-placement="top" href="#"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+                              </li>
+                              <li class="tumblr">
+                                 <a data-toggle="tooltip" title="Share on Tumblr" data-placement="top" href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <!-- COMMENTS -->
+                        <div class="comments-area">
+                            <div class="comment-respond">
+                                <h3 class="comment-reply-title text-white">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" class="js-action" href="#"   style="display:none;">Cancel reply</a></small></h3>
+                                <form action="#" method="post" class="comment-form" novalidate>
+                                    <p class="comment-notes"></p>
+                                    <div class=" form-comment">
+                                        <p class="comment-form-author relative ">
+                                            <textarea cols="45" rows="5" aria-required="true" placeholder="Your comment" name="comment"></textarea>
+                                        </p>
+                                    </div>
+                                    <div class="row form-fields">
+                                        <p class="comment-form-author relative col-md-4">
+                                            <input class="focus-me" placeholder="Your name" name="author" type="text" value="" size="30" />
+                                            <i class="icon-user absolute"></i>
+                                        </p>
+                                        <p class="comment-form-author relative col-md-4">
+                                            <input class="focus-me" placeholder="Your email" name="email" type="text" value="" size="30" />
+                                            <i class="icon-envelope absolute"></i>
+                                        </p>
+                                        <p class="comment-form-author relative col-md-4">
+                                            <input class="focus-me" placeholder="Your website" name="url" type="text" value="" size="30" />
+                                            <i class="icon-globe absolute"></i>
+                                        </p>
+                                    </div>
+                                    <p class="form-submit">
+                                        <input name="submit" type="submit" class="submit" value="Add comment" /> 
+                                        <input type='hidden' name='comment_post_ID'  value   = '329' />
+                                       <input type='hidden' name='comment_parent' value='0' />
+                                    </p>
+                                </form>
+                            </div>
+                            <!-- #respond -->
+                        </div>
+                    </div>
+                    <div class="col-md-3 sidebar-content">
+                        <aside class="widget widget_search">
+                           <form role="search" method="get" class="search-form" action="#">
+                              <label>
+                              <span class="screen-reader-text">Search for:</span>
+                              <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+                              </label>
+                              <input type="submit" class="search-submit" value="Search" />
+                           </form>
+                        </aside>
+                        <aside class="widget widget_text">
+                            <h1 class="widget-title">Crypto Tickers</h1>
+                            <div class="textwidget">
+                                <div class="ccpw-widget">
+                                   <table class="ccpw_table" style="border:none!important;">
+                                      <thead>
+                                        <tr>
+                                            <th>Crypto Currency</th>
+                                            <th>Price</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc BTC"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Bitcoin</span><br />
+                                                  <span class="coin_symbol">(BTC)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>6855.83</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc ETH"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Ethereum</span><br />
+                                                  <span class="coin_symbol">(ETH)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>416.979</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc XRP"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Ripple</span><br />
+                                                  <span class="coin_symbol">(XRP)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>0.489516</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc BCH"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Bitcoin Cash</span><br />
+                                                  <span class="coin_symbol">(BCH)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>652.101</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc LTC"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Litecoin</span><br />
+                                                  <span class="coin_symbol">(LTC)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>114.335</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc ADA"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Cardano</span><br />
+                                                  <span class="coin_symbol">(ADA)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>0.15502</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc XMR"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Monero</span><br />
+                                                  <span class="coin_symbol">(XMR)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>166.379</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc DASH"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">Dash</span><br />
+                                                  <span class="coin_symbol">(DASH)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>301.285</div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                               <div class="ccpw_icon ccpw_coin_logo"><i class="cc XEM"></i></div>
+                                               <div class="ccpw_coin_info">
+                                                  <span class="name">NEM</span><br />
+                                                  <span class="coin_symbol">(XEM)</span>
+                                               </div>
+                                            </td>
+                                            <td class="price">
+                                               <div class="price-value"><i class="fa fa-usd" aria-hidden="true"></i>0.235486</div>
+                                            </td>
+                                         </tr>
+                                      </tbody>
+                                   </table>
+                                </div>
+                            </div>
+                        </aside>
+                        <!-- TradingView Widget BEGIN -->
+                        <aside class="widget widget_text">
+                           <div class="textwidget">
+                              <div class="tradingview-widget-container">
+                                 <div class="tradingview-widget-container__widget"></div>
+                              </div>
+                           </div>
+                        </aside>
+                        <aside class="widget widget_recent_entries">
+                           <h1 class="widget-title">Recent Posts</h1>
+                           <ul>
+                              <li>
+                                 <a href="#">What is Bitcoin Mining</a>
+                              </li>
+                              <li>
+                                 <a href="#">Bitcoin vs Ethereum</a>
+                              </li>
+                              <li>
+                                 <a href="#">The Government versus Bitcoin</a>
+                              </li>
+                              <li>
+                                 <a href="#">Bitcoin domination</a>
+                              </li>
+                              <li>
+                                 <a href="#">Benefit from Blockchain</a>
+                              </li>
+                           </ul>
+                        </aside>
+                        <aside class="widget widget_recent_comments">
+                           <h1 class="widget-title">Recent Comments</h1>
+                           <ul>
+                              <li class="recentcomments"><span class="comment-author-link">Robert Downey</span> on <a href="#">What is Bitcoin Mining</a></li>
+                              <li class="recentcomments"><span class="comment-author-link">Thomas Moriz</span> on <a href="#">Bee Coin</a></li>
+                              <li class="recentcomments"><span class="comment-author-link">Robert Downey</span> on <a href="#">Bitcoin domination</a></li>
+                              <li class="recentcomments"><span class="comment-author-link"><a href='#' rel='external nofollow' class='url'>A Commenter</a></span> on <a href="#">Bitcoin domination</a></li>
+                              <li class="recentcomments"><span class="comment-author-link">LearnPress</span> on <a href="#">How to Mine Bitcoin on a Mac</a></li>
+                           </ul>
+                        </aside>
+                        <aside class="widget widget_archive">
+                           <h1 class="widget-title">Archives</h1>
+                           <ul>
+                              <li><a href='#'>January 2018</a></li>
+                              <li><a href='#'>December 2017</a></li>
+                              <li><a href='#'>October 2017</a></li>
+                              <li><a href='#'>May 2017</a></li>
+                              <li><a href='#'>April 2017</a></li>
+                           </ul>
+                        </aside>
+                        <aside class="widget widget_categories">
+                           <h1 class="widget-title">Categories</h1>
+                           <ul>
+                              <li class="cat-item cat-item-68"><a href="#" >Crypto</a></li>
+                              <li class="cat-item cat-item-1"><a href="#" >Uncategorized</a></li>
+                           </ul>
+                        </aside>
+                        <aside class="widget widget_meta">
+                           <h1 class="widget-title">Meta</h1>
+                           <ul>
+                              <li><a href="#">Log in</a></li>
+                              <li><a href="#">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                              <li><a href="#">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                           </ul>
+                        </aside>
+                        <aside class="widget widget_nav_menu">
+                           <h1 class="widget-title">RESOURCES</h1>
+                           <div class="menu-footer1-container">
+                              <ul class="menu">
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">How to Buy Coin</a></li>
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Coin Overview</a></li>
+                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog.html">Blog News</a></li>
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">How to Sell Coin</a></li>
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Purchase Template</a></li>
+                              </ul>
+                           </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <div class="post-details-bottom">
+                <div class="container">
+                    <div class="related-posts sticky-posts no-margin">
+                        <h2 class="heading-bottom no-margin text-white">Related Posts</h2>
+                        <div class="spacer_15"></div>
+                        <div class="clearfix"></div>
+                        <div class="row">
+                            <div class="col-md-4 post">
+                                <div class="related_blog_custom">
+                                    <a href="#" class="relative">
+                                        <img src="assets/images/video-image-500x300.jpg" class="img-responsive" alt="What is Bitcoin Mining" />
+                                    </a>
+                                    <div class="related_blog_details">
+                                        <h4 class="post-name"><a href="#">What is Bitcoin Mining</a></h4>
+                                        <div class="post-author">Posted by <a href="#">Robert Downey</a> - January 8, 2018</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 post">
+                                <div class="related_blog_custom">
+                                    <a href="#" class="relative">
+                                        <img src="assets/images/bitcurrency_theme-3-500x300.jpg" class="img-responsive" alt="Bitcoin vs Ethereum" />
+                                    </a>
+                                    <div class="related_blog_details">
+                                        <h4 class="post-name"><a href="#">Bitcoin vs Ethereum</a></h4>
+                                        <div class="post-author">Posted by <a href="#">Robert Downey</a> - January 8, 2018</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 post">
+                                <div class="related_blog_custom">
+                                    <a href="#" class="relative">
+                                        <img src="assets/images/bitcurrency_theme-2-500x300.jpg" class="img-responsive" alt="The Government versus Bitcoin" />
+                                    </a>
+                                    <div class="related_blog_details">
+                                        <h4 class="post-name"><a href="#">The Government versus Bitcoin</a></h4>
+                                        <div class="post-author">Posted by <a href="#">Robert Downey</a> - December 18, 2017</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="prev-next-post">
+                        <div class="col-md-12 next-post">
+                            <a href="#" class="preview-post">
+                                <i class="icon-arrow-left-circle"></i> <span>Previous Post</span> 
+                            </a>
+
+                            <a href="#" class="float-right">
+                                <span>Next Post</span> <i class="icon-arrow-right-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+	    <!-- BEGIN: FLOATING SOCIAL BUTTON -->
+	    <a data-toggle="tooltip" data-placement="top" title="Connect on Telegram" class="floating-social-btn" target="_blank" href="http://telegram.org/">
+	    	<i class="fa fa-telegram"></i>
+	    </a>    
+	    <!-- END: FLOATING SOCIAL BUTTON -->
+
+
+	    <!-- BACK TO TOP BUTTON -->
+	    <a class="back-to-top-one-page back-to-top modeltheme-is-visible modeltheme-fade-out" href="#0">
+	        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+	    </a>
+	     
+	     <!-- TICKERS DARK -->
+	    <div class="tickers-black-sm crypto-ticker">
+	        <ul id="webticker-dark-icons">
+	            <li data-update="item1"><i class="cc BTC"></i> BTC <span class="coin-value"> $11.039232</span></li> 
+	            <li data-update="item2"><i class="cc ETH"></i> ETH <span class="coin-value"> $1.2792</span></li> 
+	            <li data-update="item3"><i class="cc GAME"></i> GAME <span class="coin-value"> $11.039232</span></li> 
+	            <li data-update="item4"><i class="cc LBC"></i> LBC <span class="coin-value"> $0.588418</span></li> 
+	            <li data-update="item5"><i class="cc NEO"></i> NEO <span class="coin-value"> $161.511</span></li> 
+	            <li data-update="item6"><i class="cc STEEM"></i> STE <span class="coin-value"> $0.551955</span></li> 
+	            <li data-update="item7"><i class="cc LTC"></i> LIT <span class="coin-value"> $177.80</span></li> 
+	            <li data-update="item8"><i class="cc NOTE"></i> NOTE <span class="coin-value"> $13.399</span></li>
+	            <li data-update="item9"><i class="cc MINT"></i> MINT <span class="coin-value"> $0.880694</span></li> 
+	            <li data-update="item10"><i class="cc IOTA"></i> IOT <span class="coin-value"> $2.555</span></li> 
+	            <li data-update="item11"><i class="cc DASH"></i> DAS <span class="coin-value"> $769.22</span></li>   
+	        </ul>
+	    </div>       
+
+	    <!-- FOOTER -->
+	    <footer>
+	        <!-- FOOTER BOTTOM -->
+	        <div class="footer-div-parent cryptic-footer-one-page">
+	            <div class="container-fluid footer">
+	                <div class="col-md-12">
+	                	<p class="copyright text-center">
+	                        <a href="#">Cryptocurrency  Template</a> by ModelTheme. 2018 All Rights Reserved.                                       
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+	    </footer>
+	    <div class="spacer_40"></div>
+	</div><!-- end HEADER -->
+<!-- JS SCRIPTS -->
+<script src='assets/js/jquery.js'></script>
+<script src='assets/js/bitwallet-plugins.js'></script>
+<script src='assets/js/bitwallet-custom.js'></script>
+<script src='assets/js/jquery.mb.YTPlayer.min.js'></script>
+<!-- WEBTICKER -->
+<script src="assets/plugins/webticker/jquery.webticker.min.js"></script>
+<!-- PLUGINS -->
+<script src="assets/plugins/flipclock/flipclock.js"></script>
+<script src='assets/plugins/select2/select2.min.js'></script>
+<script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script src='assets/plugins/magnific-popup/jquery.magnific-popup.js'></script>
+<!-- Charts -->
+<script src="assets/plugins/amcharts/amcharts.js"></script>
+<script src="assets/plugins/amcharts/pie.js"></script>
+<script src="assets/plugins/amcharts/animate.min.js"></script>
+<script src="assets/plugins/amcharts/depthChart/export.min.js"></script>
+<script src="assets/plugins/amcharts/depthChart/light.js"></script>
+
+</body>
+</html>
